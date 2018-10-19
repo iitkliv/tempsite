@@ -13,6 +13,11 @@ permalink: /allnews.html
     [{{ article.date }}]
     <br>
     {{ article.headline }}
+    {% if article.thumbnail %}
+    <center>
+    	<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.thumbnail }}" class="img-responsive" />
+	</center>
+    {% endif %}
 </p>
 <hr style="height:1px; border:none; background-color:#aaaaaa;" />
 {% endfor %}

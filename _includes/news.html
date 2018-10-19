@@ -4,6 +4,9 @@
     {% for article in site.data.news limit:8 %}
         [ {{ article.date }} ]
         <p> {{ article.headline }} </p>
+        {% if article.thumbnail %}
+    		<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.thumbnail }}" class="img-responsive" style="max-width: 192px;" />
+    	{% endif %}
         <br>
     {% endfor %}
 
