@@ -1,12 +1,12 @@
 ---
-title: "KLIV - Research"
+title: "KLIV - Learning Resources"
 layout: textlay
 excerpt: "KLIV Group at IIT Kharagpur"
 sitemap: false
-permalink: /research/
+permalink: /resources/
 ---
 
-# Research
+# Learning Resources
 
 <br>
 

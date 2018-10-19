@@ -3,7 +3,7 @@ title: "KLIV - Team"
 layout: gridlay
 excerpt: "KLIV Group at IIT Kharagpur"
 sitemap: false
-permalink: /team/
+permalink: /people/
 ---
 
 # Group Members

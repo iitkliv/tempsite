@@ -1,9 +1,9 @@
 ---
-title: "KLIV - Blogs"
+title: "KLIV - Whitepapers"
 layout: gridlay
 excerpt: "KLIV Group at IIT Kharagpur."
 sitemap: true
-permalink: /blogs/
+permalink: /whitepapers/
 ---
 
 
