@@ -1,0 +1,101 @@
+- name: Dr. Debdoot Sheet
+  photo: ds.jpg
+  info: Head & Principle Investigator (PI) of KLIV Group
+  email: debdoot@ee.iitkgp.ac.in
+  number_educ: 2
+  education1: Assistant Professor, Department of Electrical Engineering, IIT Kharagpur
+  education2: Founder and Managing Director, SkinCurate Research Pvt. Ltd.
+  type: head
+
+- name: Rachana Sathish
+  photo: rs.jpg
+  info: Member of KLIV and PhD student
+  email: rachana.sathish@iitkgp.ac.in
+  number_educ: 1
+  education1: M.Tech, IIT Kharagpur
+  type: member
+
+- name: Aupendu Kar
+  photo: ak.png
+  info: Member of KLIV and PhD student
+  email: aupendukar@iitkgp.ac.in
+  number_educ: 2
+  education1: M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
+  education2: BTech in Electrical Engineering from West Bengal University of Technology
+  type: member
+
+- name: Debarghya China
+  photo: dc.jpg
+  info: Member of KLIV and PhD student
+  email: debarghyachina@gmail.com
+  number_educ: 1
+  education1: PhD, IIT Kharagpur
+  type: member
+
+- name: Ayan Das
+  photo: ad.jpg
+  info: Member of KLIV and M.S. student
+  email: ayan.das@ee.iitkgp.ac.in
+  number_educ: 1
+  education1: BTech in Electronics Engg. from ECE Dept., IEM Kolkata
+  type: member
+
+- name: Dr. ABC xyz
+  photo: phman.jpg
+  info: Assistant Professor, started from 2030
+  email: mymailid@mail.com
+  number_educ: 3
+  education1: Awesome educational qualification from PQR University
+  education2: Awesome educational qualification from PQR University
+  education3: Awesome educational qualification from PQR University
+  type: member
+
+- name: Dr. PQR
+  photo: phwoman.png
+  info: Assistant Professor, started from 2031
+  email: mail@mail.com
+  number_educ: 3
+  education1: Awesome educational qualification from PQR University
+  education2: Awesome educational qualification from PQR University
+  education3: Awesome educational qualification from PQR University
+  type: member
+
+- name: Dr. ABC xyz
+  photo: phman.jpg
+  info: Assistant Professor, started from 2030
+  email: mymailid@mail.com
+  number_educ: 3
+  education1: Awesome educational qualification from PQR University
+  education2: Awesome educational qualification from PQR University
+  education3: Awesome educational qualification from PQR University
+  type: member
+
+- name: Dr. PQR
+  photo: phwoman.png
+  info: Assistant Professor, started from 2031
+  email: mail@mail.com
+  number_educ: 3
+  education1: Awesome educational qualification from PQR University
+  education2: Awesome educational qualification from PQR University
+  education3: Awesome educational qualification from PQR University
+  type: member
+
+- name: Dr. PQR
+  photo: phwoman.png
+  info: Assistant Professor, started from 2031
+  email: mail@mail.com
+  number_educ: 3
+  education1: Awesome educational qualification from PQR University
+  education2: Awesome educational qualification from PQR University
+  education3: Awesome educational qualification from PQR University
+  type: undergrad
+
+- name: Dr. PQR
+  photo: phwoman.png
+  info: Assistant Professor, started from 2031
+  email: mail@mail.com
+  number_educ: 3
+  education1: Awesome educational qualification from PQR University
+  education2: Awesome educational qualification from PQR University
+  education3: Awesome educational qualification from PQR University
+  type: alumni
