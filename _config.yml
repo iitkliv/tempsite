@@ -10,7 +10,7 @@ title: "IIT KLIV Group"
 email: debdoot@ee.iitkgp.ac.in
 description: > # this means to ignore newlines until "baseurl:"
   We combine fields of machine learning, medical imaging and visualization for advancing state of art to achieving these futuristic experiences.
-baseurl: ""
+baseurl: "/tempsite"
 url: ""
 
 include:
