@@ -10,6 +10,10 @@ permalink: /collab/
 
 <br>
 
+1. [Intel Technologies India Pvt. Ltd.](https://www.intel.in/content/www/in/en/homepage.html)
+2. [Dept. of Biotechnology, Govt. of India](http://www.dbtindia.nic.in/)
+3. [NVidia GPU Education centre](https://developer.nvidia.com/academia)
+
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
