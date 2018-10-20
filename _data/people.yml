@@ -70,14 +70,12 @@
   education3: Awesome educational qualification from PQR University
   type: member
 
-- name: Dr. PQR
-  photo: phwoman.png
-  info: Assistant Professor, started from 2031
-  email: mail@mail.com
-  number_educ: 3
-  education1: Awesome educational qualification from PQR University
-  education2: Awesome educational qualification from PQR University
-  education3: Awesome educational qualification from PQR University
+- name: This could be You !
+  photo: phman.jpg
+  info: Be a part of the team ..
+  email: you@mail.com
+  number_educ: 1
+  education1: See the vacancy list
   type: member
 
 - name: Dr. PQR
