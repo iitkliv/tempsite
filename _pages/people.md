@@ -11,7 +11,7 @@ permalink: /people/
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 ## Principle Investigator
-{% for member in site.data.members %}
+{% for member in site.data.people %}
 {% if member.type == "head" %}
 
 <div class="row">
@@ -60,7 +60,7 @@ permalink: /people/
 
 ## Members
 {% assign number_printed = 0 %}
-{% for member in site.data.members %}
+{% for member in site.data.people %}
 {% if member.type == "member" %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -127,7 +127,7 @@ permalink: /people/
 
 ## Undergraduate students
 {% assign number_printed = 0 %}
-{% for member in site.data.members %}
+{% for member in site.data.people %}
 {% if member.type == "undergrad" %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -184,7 +184,7 @@ permalink: /people/
 ## Alumni
 
 {% assign number_printed = 0 %}
-{% for member in site.data.members %}
+{% for member in site.data.people %}
 {% if member.type == "alumni" %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
