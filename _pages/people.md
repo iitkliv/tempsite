@@ -1,18 +1,14 @@
 ---
-title: "KLIV - Team"
+title: "KLIV - People"
 layout: gridlay
 excerpt: "KLIV Group at IIT Kharagpur"
 sitemap: false
 permalink: /people/
 ---
 
-# Group Members
+# People
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
-
 
 ## Principle Investigator
 {% for member in site.data.members %}
