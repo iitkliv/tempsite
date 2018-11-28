@@ -1,0 +1,27 @@
+- name: "Collaborative Research on Artificial Intelligence for Microscopy Imaging and Image Analysis"
+  sponsor: "SIGTUPLE TECHNOLOGIES PRIVATE LIMITED"
+  status: ongoing
+
+- name: "MIRIAD: Many Incarnations of Screening Radiology for High Throughput Disease Screening Via Multiple Instance Reinforcement Learning with Adversarial Deep Neural Networks"
+  sponsor: "INTEL TECHNOLOGY INDIA PRIVATE LIMITED"
+  status: ongoing
+
+- name: "Computed super-resolution optical coherence tomography"
+  sponsor: "ISIRD, SRIC"
+  status: completed
+
+- name: "Method for precisely guiding needle towards uterine tumors with ultrasonic imaging assistance"
+  sponsor: "Nesa Medtech Private Limited"
+  status: completed
+
+- name: "Digital Pathology Image Compression via Deep Learning based Super Resolution"
+  sponsor: "SIGTUPLE TECHNOLOGIES PRIVATE LIMITED"
+  status: completed
+
+- name: "GPU education center"
+  sponsor: "NVIDIA"
+  status: completed
+
+- name: "Integrated application of multimodal optical coherence tomography and multispectral imaging for spatio-functional characterization of skin towards in vivo histology"
+  sponsor: "DBT, NEW DELHI"
+  status: completed
