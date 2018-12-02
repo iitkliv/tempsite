@@ -2,76 +2,76 @@
   photo: ds.jpg
   info: Head & Principle Investigator (PI) of KLIV Group
   email: debdoot@ee.iitkgp.ac.in
-  number_educ: 2
-  education1: Assistant Professor, Department of Electrical Engineering, IIT Kharagpur
-  education2: Founder and Managing Director, SkinCurate Research Pvt. Ltd.
+  description:
+    - Assistant Professor, Department of Electrical Engineering, IIT Kharagpur
+    - Founder and Managing Director, SkinCurate Research Pvt. Ltd.
   type: head
 
 - name: Rachana Sathish
   photo: rs.jpg
   info: Member of KLIV and PhD student
   email: rachana.sathish@iitkgp.ac.in
-  number_educ: 1
-  education1: M.Tech, IIT Kharagpur
+  description:
+    - M.Tech, IIT Kharagpur
   type: member
 
 - name: Aupendu Kar
   photo: ak.png
   info: Member of KLIV and PhD student
   email: aupendukar@iitkgp.ac.in
-  number_educ: 2
-  education1: M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
-  education2: BTech in Electrical Engineering from West Bengal University of Technology
+  description:
+    - M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
+    - BTech in Electrical Engineering from West Bengal University of Technology
   type: member
 
 - name: Debarghya China
   photo: dc.jpg
   info: Member of KLIV and PhD student
   email: debarghyachina@gmail.com
-  number_educ: 1
-  education1: PhD, IIT Kharagpur
+  description:
+    - PhD, IIT Kharagpur
   type: member
 
 - name: Ayan Das
   photo: ad.jpg
   info: Member of KLIV and M.S. student
   email: ayan.das@ee.iitkgp.ac.in
-  number_educ: 1
-  education1: BTech in Electronics Engg. from ECE Dept., IEM Kolkata
+  description:
+    - BTech in Electronics Engg. from ECE Dept., IEM Kolkata
   type: member
 
 - name: Kaushik Das
   photo: kd.jpg
   info: Member of KLIV and PhD Student
   email: imkausikdas@gmail.com
-  number_educ: 1
-  education1: ...
+  description:
+    - MTech from IIT Kharagpur
   type: member
 
 - name: This could be You !
   photo: phman.jpg
   info: Be a part of the team ..
   email: you@mail.com
-  number_educ: 1
-  education1: See the vacancy list
+  description:
+    - See the vacancy list
   type: member
 
 - name: Dr. PQR
   photo: phwoman.png
   info: Assistant Professor, started from 2031
   email: mail@mail.com
-  number_educ: 3
-  education1: Awesome educational qualification from PQR University
-  education2: Awesome educational qualification from PQR University
-  education3: Awesome educational qualification from PQR University
+  description:
+    - Awesome educational qualification from PQR University
+    - Awesome educational qualification from PQR University
+    - Awesome educational qualification from PQR University
   type: undergrad
 
 - name: Dr. PQR
   photo: phwoman.png
   info: Assistant Professor, started from 2031
   email: mail@mail.com
-  number_educ: 3
-  education1: Awesome educational qualification from PQR University
-  education2: Awesome educational qualification from PQR University
-  education3: Awesome educational qualification from PQR University
+  description:
+    - Awesome educational qualification from PQR University
+    - Awesome educational qualification from PQR University
+    - Awesome educational qualification from PQR University
   type: alumni
