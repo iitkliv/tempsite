@@ -7,25 +7,30 @@ permalink: /vacancies
 ---
 
 # Open positions
+<br />
 
-We are always looking for new group members with passion, talent, and grit!
+<ol>
+{% for job in site.data.jobs %}
+{% if job.open %}
+    <li><p style="font-size: 20px;"> {{ job.title }} </p></li>
+    <ul style="line-height: 1em;">
+    	{% if job.project %}<li><p style="font-size: 16px;">Project: {{ job.project }}</p></li>{% endif %}
+    	{% if job.dated %}<li><p style="font-size: 16px;">Reference Date: {{ job.dated }}</p></li>{% endif %}
+    	{% if job.deadline %}<li><p style="font-size: 16px;">Deadline: {{ job.deadline }}</p></li>{% endif %}
+    	{% if job.reference_no %}<li><p style="font-size: 16px;">Reference No.: {{ job.reference_no }}</p></li>{% endif %}
+    	{% if job.description %}<li><p style="font-size: 16px;">Description: {{ job.description }}</p></li>{% endif %}
+    	{% if job.qualifications %}<li><p style="font-size: 16px;">Qualification: {{ job.qualifications }}</p></li>{% endif %}
+    	{% if job.no_of_vac %}<li><p style="font-size: 16px;">No. of vacancies: {{ job.no_of_vac }}</p></li>{% endif %}
+    	{% if job.application_procedure %}<li><p style="font-size: 16px;">Application Procedure: {{ job.application_procedure }}</p></li>{% endif %}
+    </ul>
+{% endif %}
+{% endfor %}
+</ol>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<br /> <br />
 
-#### PhD and Postdoc positions
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-#### Leiden University master students
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-#### Bsc / Master students from elsewhere
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
+<center>
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner_2.png" width="95%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner_2.png" width="75%">
 </figure>
+</center>
