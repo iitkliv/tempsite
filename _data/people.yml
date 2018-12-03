@@ -9,7 +9,7 @@
 
 - name: Rachana Sathish
   photo: rs.jpg
-  info: Member of KLIV and PhD student
+  info: PhD student
   email: rachana.sathish@iitkgp.ac.in
   description:
     - M.Tech, IIT Kharagpur
@@ -17,32 +17,35 @@
 
 - name: Aupendu Kar
   photo: ak.png
-  info: Member of KLIV and PhD student
+  info: PhD student
   email: aupendukar@iitkgp.ac.in
   description:
     - M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
     - BTech in Electrical Engineering from West Bengal University of Technology
+    - <a href="https://aupendu.github.io/"> Personal Site </a>
   type: member
 
 - name: Debarghya China
   photo: dc.jpg
-  info: Member of KLIV and PhD student
+  info: PhD student
   email: debarghyachina@gmail.com
   description:
-    - PhD, IIT Kharagpur
+    - MTech in Mechatronics Engineering from NITTTR Kolkata
+    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
   type: member
 
 - name: Ayan Das
   photo: ad.jpg
-  info: Member of KLIV and M.S. student
+  info: M.S. student
   email: ayan.das@ee.iitkgp.ac.in
   description:
     - BTech in Electronics Engg. from ECE Dept., IEM Kolkata
+    - <a href="https://dasayan05.github.io/"> Personal Site </a>
   type: member
 
 - name: Kaushik Das
   photo: kd.jpg
-  info: Member of KLIV and PhD Student
+  info: PhD Student
   email: imkausikdas@gmail.com
   description:
     - MTech from IIT Kharagpur
