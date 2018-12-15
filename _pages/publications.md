@@ -11,7 +11,7 @@ permalink: /publications/
 
 <br>
 
-(For a full list go to [Google Scholar](https://scholar.google.ch/))
+(For a full list go to [Google Scholar](https://scholar.google.com/citations?user=x-0vLSsAAAAJ&hl=en))
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -26,7 +26,11 @@ permalink: /publications/
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
+  {% if publi.image %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/default.png" class="img-responsive" width="33%" style="float: left" />
+  {% endif %}
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
