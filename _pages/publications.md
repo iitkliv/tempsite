@@ -11,13 +11,11 @@ permalink: /publications/
 
 <br>
 
-(For a full list go to [Google Scholar](https://scholar.google.com/citations?user=x-0vLSsAAAAJ&hl=en))
-
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
+{% if publi.highlight %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -31,7 +29,7 @@ permalink: /publications/
   {% else %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/default.png" class="img-responsive" width="33%" style="float: left" />
   {% endif %}
-  <p>{{ publi.description }}</p>
+  <p style="font-size: 13px; text-align: justify;">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
@@ -51,5 +49,18 @@ permalink: /publications/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+## Full list of publications
+(You may also visit the [Google Scholar](https://scholar.google.com/citations?user=x-0vLSsAAAAJ&hl=en) page)
+
+<ul>
+    {% for pub in site.data.publist %}
+        <li>
+            <p style="font-size: 17px;">
+            "{{ pub.title }}" by {{ pub.authors }}, published at <i>{{ pub.link.display }}</i>
+            </p>
+        </li>
+    {% endfor %}
+</ul>
 
 <p> &nbsp; </p>

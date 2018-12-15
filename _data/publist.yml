@@ -1,10 +1,10 @@
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "Brightness preserving dynamic fuzzy histogram equalization"
+  description: This paper proposes a novel modification of the brightness preserving dynamic histogram equalization technique to improve its brightness preserving and contrast enhancement abilities while reducing its computational complexity. The modified technique, called Brightness Preserving Dynamic Fuzzy Histogram Equalization (BPDFHE), uses fuzzy statistics of digital images for their representation and processing. Representation and processing of images in the fuzzy domain enables the technique to handle the inexactness of gray level values in a better way, resulting in improved performance. Execution time is dependent on image size and nature of the histogram, however experimental results show it to be faster as compared to the techniques compared here. The performance analysis of the BPDFHE along with that for BPDHE has been given for comparative evaluation.
+  authors: Debdoot Sheet, Hrushikesh Garud, Amit Suveer, Manjunatha Mahadevappa, Jyotirmoy Chatterjee
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
-  highlight: 1
+    url: https://ieeexplore.ieee.org/abstract/document/5681130/
+    display:  IEEE Transactions on Consumer Electronics
+  highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
   description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
@@ -12,7 +12,7 @@
   link:
     url: https://ourpublicationurl.com
     display:  Mother nature
-  highlight: 1
+  highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
   description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
@@ -20,7 +20,7 @@
   link:
     url: https://ourpublicationurl.com
     display:  Mother nature
-  highlight: 1
+  highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
   description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
@@ -28,7 +28,7 @@
   link:
     url: https://ourpublicationurl.com
     display:  Mother nature
-  highlight: 1
+  highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
   description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
@@ -36,7 +36,7 @@
   link:
     url: https://ourpublicationurl.com
     display:  Mother nature
-  highlight: 1
+  highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
   description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
@@ -44,7 +44,7 @@
   link:
     url: https://ourpublicationurl.com
     display:  Mother nature
-  highlight: 1
+  highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
   description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
@@ -52,4 +52,4 @@
   link:
     url: https://ourpublicationurl.com
     display:  Mother nature
-  highlight: 1
+  highlight: true
