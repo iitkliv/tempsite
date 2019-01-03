@@ -6,36 +6,36 @@
     display:  IEEE Transactions on Consumer Electronics
   highlight: true
 
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks"
+  description: Optical coherence tomography (OCT) is used for non-invasive diagnosis of diabetic macular edema assessing the retinal layers. In this paper, we propose a new fully convolutional deep architecture, termed ReLayNet, for end-to-end segmentation of retinal layers and fluid masses in eye OCT scans. ReLayNet uses a contracting path of convolutional blocks (encoders) to learn a hierarchy of contextual features, followed by an expansive path of convolutional blocks (decoders) for semantic segmentation. ReLayNet is trained to optimize a joint loss function comprising of weighted logistic regression and Dice overlap loss. The framework is validated on a publicly available benchmark dataset with comparisons against five state-of-the-art segmentation methods including two deep learning based approaches to substantiate its effectiveness.
+  authors: Abhijit Guha Roy, Sailesh Conjeti, Sri Phani Krishna Karri, Debdoot Sheet, Amin Katouzian, Christian Wachinger, Nassir Navab
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
+    url: https://www.osapublishing.org/boe/abstract.cfm?uri=boe-8-8-3627
+    display:  Biomedical optics express
   highlight: true
 
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "Ensemble of deep convolutional neural networks for learning to detect retinal vessels in fundus images"
+  description: OVision impairment due to pathological damage of the retina can largely be prevented through periodic screening using fundus color imaging. However the challenge with large scale screening is the inability to exhaustively detect fine blood vessels crucial to disease diagnosis. In this work we present a computational imaging framework using deep and ensemble learning for reliable detection of blood vessels in fundus color images. An ensemble of deep convolutional neural networks is trained to segment vessel and non-vessel areas of a color fundus image. During inference, the responses of the individual ConvNets of the ensemble are averaged to form the final segmentation. In experimental evaluation with the DRIVE database, we achieve the objective of vessel detection with maximum average accuracy of 94.7\% and area under ROC curve of 0.9283.
+  authors: Debapriya Maji, Anirban Santara, Pabitra Mitra, Debdoot Sheet
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
+    url: https://arxiv.org/abs/1603.04833
+    display: arXiv preprint arXiv:1603.04833
   highlight: true
 
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "Characterization and scanning electron microscopic investigation of crosslinked freeze dried gelatin matrices for study of drug diffusivity and release kinetics"
+  description: Drug delivery is a promising technique to enhance the therapeutic efficacy of the drug. However, properties of carrier materials require intense improvement for effective transport of drug molecules. In the current study, attempts have been made to develop freeze dried gelatin matrices cross linked with genipin at various temperatures (5 °C, 15 °C and 25 °C) prior to freeze-drying (−80 °C). The freeze dried matrices thus obtained at the said temperatures are characterized for crosslinking density, compression strength, swelling behaviors. The matrix crosslinked at 25 °C showed highest Flory–Rehner crosslinking density (467 ± 46) (p < 0.05), highest compressive strength (12.36 ± 0.12) (p < 0.05) and lowest equilibrium water content. In this context, scanning electron microscopy (SEM) was performed to study the surface morphology (size and shape of pores) of the crosslinked matrices. These images were further ...
+  authors: Goutam Thakur, Analava Mitra, Amit Basak, Debdoot Sheet
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
+    url: https://www.sciencedirect.com/science/article/pii/S096843281100165X
+    display: Pergamon
   highlight: true
 
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "Iterative self-organizing atherosclerotic tissue labeling in intravascular ultrasound images and comparison with virtual histology"
+  description: Intravascular ultrasound (IVUS) is the predominant imaging modality in the field of interventional cardiology that provides real-time crosssectional images of coronary arteries and the extent of atherosclerosis. Due to heterogeneity of lesions and stringent spatial/spectral behavior of tissues, atherosclerotic plaque characterization has always been a challenge and still is an open problem. In this paper, we present a systematic framework from in vitro data collection, histology preparation, IVUS-histology registration along with matching procedure, and finally a robust texture-derived unsupervised atherosclerotic plaque labeling. We have performed our algorithm on in vitro and in vivo images acquired with single-element
+  authors: Amin Katouzian, Athanasios Karamalis, Debdoot Sheet, Elisa Konofagou, Babak Baseri, Stephane G Carlier, Abouzar Eslami, Andreas König, Nassir Navab, Andrew F Laine
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
+    url: https://ieeexplore.ieee.org/iel5/10/4359967/06269061.pdf
+    display:  IEEE Transactions on Biomedical Engineering
   highlight: true
 
 - title: "Our super awesome publication which is now published in an awesome journal"
