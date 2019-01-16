@@ -6,24 +6,24 @@ sitemap: false
 permalink: /resources/
 ---
 
-# Learning Resources
+# Resources
 
-<br>
+### Internal services:
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+We provide few services solely for internal usage by the [students]({{ site.url }}{{ site.baseurl }}/people/) associated with our lab. These services can only be accessed from within IIT Kharagpur's internal network (LAN & Wifi). 
+
+**Important: The URLs must be added to the "*proxy bypass*" list of your system (The way to do this is OS and browser specific) to be able to run the services.**
+
+1. #### Local *LaTeX* server:
+	* ##### **Type:** ShareLaTeX distribution
+	* ##### **URL:** Send an E-mail to "*debdoot@ee.iitkgp.ac.in*" or "*ayan.das@ee.iitkgp.ac.in*" for access
+	* ##### **User account:** Send an E-mail to "*debdoot@ee.iitkgp.ac.in*" or "*ayan.das@ee.iitkgp.ac.in*" for creating a user account
+	* ##### **How to use:** [learn here](https://www.youtube.com/watch?v=iWlc5ufcsdk)
+
+2. #### Local Version Control System (VCS) server:
+	* ##### **Type:** GitLab instance (Git)
+	* ##### **URL:** Send an E-mail to "*debdoot@ee.iitkgp.ac.in*" or "*ayan.das@ee.iitkgp.ac.in*" for access
+	* ##### **User account:** Register on the instance as usual
+	* ##### **How to use:** [learn here](https://www.youtube.com/watch?v=enMumwvLAug); we also recommend to [set up ssh keys](https://docs.gitlab.com/ce/ssh/)
  
-![]({{ site.url }}{{ site.baseurl }}/images/respic/random.jpg){: style="width: 400px; float: right; border: 10px"}
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-![]({{ site.url }}{{ site.baseurl }}/images/respic/random2.jpg){: style="width: 400px; float: right; border: 10px"}
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-<br> <br>
+<br /> <br />
