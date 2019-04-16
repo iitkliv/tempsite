@@ -1,11 +1,3 @@
-- title: "Brightness preserving dynamic fuzzy histogram equalization"
-  description: This paper proposes a novel modification of the brightness preserving dynamic histogram equalization technique to improve its brightness preserving and contrast enhancement abilities while reducing its computational complexity. The modified technique, called Brightness Preserving Dynamic Fuzzy Histogram Equalization (BPDFHE), uses fuzzy statistics of digital images for their representation and processing. Representation and processing of images in the fuzzy domain enables the technique to handle the inexactness of gray level values in a better way, resulting in improved performance. Execution time is dependent on image size and nature of the histogram, however experimental results show it to be faster as compared to the techniques compared here. The performance analysis of the BPDFHE along with that for BPDHE has been given for comparative evaluation.
-  authors: Debdoot Sheet, Hrushikesh Garud, Amit Suveer, Manjunatha Mahadevappa, Jyotirmoy Chatterjee
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/5681130/
-    display:  IEEE Transactions on Consumer Electronics
-  highlight: true
-
 - title: "ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks"
   description: Optical coherence tomography (OCT) is used for non-invasive diagnosis of diabetic macular edema assessing the retinal layers. In this paper, we propose a new fully convolutional deep architecture, termed ReLayNet, for end-to-end segmentation of retinal layers and fluid masses in eye OCT scans. ReLayNet uses a contracting path of convolutional blocks (encoders) to learn a hierarchy of contextual features, followed by an expansive path of convolutional blocks (decoders) for semantic segmentation. ReLayNet is trained to optimize a joint loss function comprising of weighted logistic regression and Dice overlap loss. The framework is validated on a publicly available benchmark dataset with comparisons against five state-of-the-art segmentation methods including two deep learning based approaches to substantiate its effectiveness.
   authors: Abhijit Guha Roy, Sailesh Conjeti, Sri Phani Krishna Karri, Debdoot Sheet, Amin Katouzian, Christian Wachinger, Nassir Navab
@@ -22,34 +14,450 @@
     display: arXiv preprint arXiv:1603.04833
   highlight: true
 
-- title: "Characterization and scanning electron microscopic investigation of crosslinked freeze dried gelatin matrices for study of drug diffusivity and release kinetics"
-  description: Drug delivery is a promising technique to enhance the therapeutic efficacy of the drug. However, properties of carrier materials require intense improvement for effective transport of drug molecules. In the current study, attempts have been made to develop freeze dried gelatin matrices cross linked with genipin at various temperatures (5 °C, 15 °C and 25 °C) prior to freeze-drying (−80 °C). The freeze dried matrices thus obtained at the said temperatures are characterized for crosslinking density, compression strength, swelling behaviors. The matrix crosslinked at 25 °C showed highest Flory–Rehner crosslinking density (467 ± 46) (p < 0.05), highest compressive strength (12.36 ± 0.12) (p < 0.05) and lowest equilibrium water content. In this context, scanning electron microscopy (SEM) was performed to study the surface morphology (size and shape of pores) of the crosslinked matrices. These images were further ...
-  authors: Goutam Thakur, Analava Mitra, Amit Basak, Debdoot Sheet
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S096843281100165X
-    display: Pergamon
-  highlight: true
-
 - title: "Iterative self-organizing atherosclerotic tissue labeling in intravascular ultrasound images and comparison with virtual histology"
   description: Intravascular ultrasound (IVUS) is the predominant imaging modality in the field of interventional cardiology that provides real-time crosssectional images of coronary arteries and the extent of atherosclerosis. Due to heterogeneity of lesions and stringent spatial/spectral behavior of tissues, atherosclerotic plaque characterization has always been a challenge and still is an open problem. In this paper, we present a systematic framework from in vitro data collection, histology preparation, IVUS-histology registration along with matching procedure, and finally a robust texture-derived unsupervised atherosclerotic plaque labeling. We have performed our algorithm on in vitro and in vivo images acquired with single-element
   authors: Amin Katouzian, Athanasios Karamalis, Debdoot Sheet, Elisa Konofagou, Babak Baseri, Stephane G Carlier, Abouzar Eslami, Andreas König, Nassir Navab, Andrew F Laine
   link:
     url: https://ieeexplore.ieee.org/iel5/10/4359967/06269061.pdf
-    display:  IEEE Transactions on Biomedical Engineering
+    display: IEEE Transactions on Biomedical Engineering
   highlight: true
 
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "Deep neural network and random forest hybrid architecture for learning to detect retinal vessels in fundus images"
+  description: Vision impairment due to pathological damage of the retina can largely be prevented through periodic screening using fundus color imaging. However the challenge with large-scale screening is the inability to exhaustively detect fine blood vessels crucial to disease diagnosis. In this work we present a computational imaging framework using deep and ensemble learning based hybrid architecture for reliable detection of blood vessels in fundus color images. A deep neural network (DNN) is used for unsupervised learning of vesselness dictionaries using sparse trained denoising auto-encoders (DAE), followed by supervised learning of the DNN response using a random forest for detecting vessels in color fundus images. In experimental evaluation with the DRIVE database, we achieve the objective of vessel detection with max. avg. accuracy of 0.9327 and area under ROC curve of 0.9195.
+  authors: Debapriya Maji, Anirban Santara, Sambuddha Ghosh, Debdoot Sheet, Pabitra Mitra
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
+    url: https://ieeexplore.ieee.org/abstract/document/7319030/
+    display: 2015 37th annual international conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
   highlight: true
 
-- title: "Our super awesome publication which is now published in an awesome journal"
-  description: Our super awesome publication which is now published in an awesome journal Our super awesome publication which is now published in an awesome journal
-  authors: D Sheet, A Das, R Sathish, D China, and many other
+- title: "Error corrective boosting for learning fully convolutional networks with limited data"
+  description: Training deep fully convolutional neural networks (F-CNNs) for semantic image segmentation requires access to abundant labeled data. While large datasets of unlabeled image data are available in medical applications, access to manually labeled data is very limited. We propose to automatically create auxiliary labels on initially unlabeled data with existing tools and to use them for pre-training. For the subsequent fine-tuning of the network with manually labeled data, we introduce error corrective boosting (ECB), which emphasizes parameter updates on classes with lower accuracy. Furthermore, we introduce SkipDeconv-Net (SD-Net), a new F-CNN architecture for brain segmentation that combines skip connections with the unpooling strategy for upsampling. The SD-Net addresses challenges of severe class imbalance and errors along boundaries. With application to whole-brain MRI T1 scan …
+  authors: Abhijit Guha Roy, Sailesh Conjeti, Debdoot Sheet, Amin Katouzian, Nassir Navab, Christian Wachinger
   link:
-    url: https://ourpublicationurl.com
-    display:  Mother nature
+    url: https://link.springer.com/chapter/10.1007/978-3-319-66179-7_27
+    display: International Conference on Medical Image Computing and Computer-Assisted Intervention
   highlight: true
+  
+- title: "Simulating Patho-realistic Ultrasound Images using Deep Generative Networks with Adversarial Learning"
+  description: Ultrasound imaging makes use of backscattering of waves during their interaction with scatterers present in biological tissues. Simulation of synthetic ultrasound images is a challenging problem on account of inability to accurately model various factors of which some include intra-/inter scanline interference, transducer to surface coupling, artifacts on transducer elements, inhomogeneous shadowing and nonlinear attenuation. Current approaches typically solve wave space equations making them computationally expensive and slow to operate. We propose a generative adversarial network (GAN) inspired approach for fast simulation of patho-realistic ultrasound images. We apply the framework to intravascular ultrasound (IVUS) simulation. A stage 0 simulation performed using pseudo B-mode ultrasound image simulator yields speckle mapping of a digitally defined phantom. The stage I GAN subsequently refines …
+  authors: Francis Tom, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/8363780/
+    display:  Biomedical Imaging (ISBI 2018), 2018 IEEE 15th International Symposium on
+  highlight: true
+  
+- title: "Deep neural ensemble for retinal vessel segmentation in fundus images towards achieving label-free angiography"
+  description: Automated segmentation of retinal blood vessels in label-free fundus images entails a pivotal role in computed aided diagnosis of ophthalmic pathologies, viz., diabetic retinopathy, hypertensive disorders and cardiovascular diseases. The challenge remains active in medical image analysis research due to varied distribution of blood vessels, which manifest variations in their dimensions of physical appearance against a noisy background. In this paper we formulate the segmentation challenge as a classification task. Specifically, we employ unsupervised hierarchical feature learning using ensemble of two level of sparsely trained denoised stacked autoencoder. First level training with bootstrap samples ensures decoupling and second level ensemble formed by different network architectures ensures architectural revision. We show that ensemble training of auto-encoders fosters diversity in learning dictionary of …
+  authors: Avisek Lahiri, Abhijit Guha Roy, Debdoot Sheet, Prabir Kumar Biswas
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7590955/
+    display:  2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+  highlight: false
+  
+- title: "Deep learning of tissue specific speckle representations in optical coherence tomography and deeper exploration for in situ histology"
+  description: Optical coherence tomography (OCT) relies on speckle image formation by coherent sensing of photons diffracted from a broadband laser source incident on tissues. Its non-ionizing nature and tissue specific speckle appearance has leveraged rapid clinical translation for non-invasive high-resolution in situ imaging of critical organs and tissue viz. coronary vessels, healing wounds, retina and choroid. However the stochastic nature of speckles introduces inter- and intra-observer reporting variability challenges. This paper proposes a deep neural network (DNN) based architecture for unsupervised learning of speckle representations in swept-source OCT using denoising auto-encoders (DAE) and supervised learning of tissue specifics using stacked DAEs for histologically characterizing healthy skin and healing wounds with the aim of reducing clinical reporting variability. Performance of our deep learning based …
+  authors: Debdoot Sheet, Sri Phani Krishna Karri, Amin Katouzian, Nassir Navab, Ajoy K Ray, Jyotirmoy Chatterjee
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7163987/
+    display:  2015 IEEE 12th International Symposium on Biomedical Imaging (ISBI)
+  highlight: false
+  
+- title: "Classifying histopathology whole-slides using fusion of decisions from deep convolutional network on a collection of random multi-views at multi-magnification"
+  description: Histopathology forms the gold standard for confirmed diagnosis of a suspicious hyperplasia being benign or malignant and for its sub-typing. While techniques like whole-slide imaging have enabled computer assisted analysis for exhaustive reporting of the tissue section, it has also given rise to the big-data deluge and the time complexity associated with processing GBs of image data acquired over multiple magnifications. Since preliminary screening of a slide into benign or malignant carried out on the fly during the digitization process can reduce a Pathologist's work load, to devote more time for detailed analysis, slide screening has to be performed on the fly with high sensitivity. We propose a deep convolutional neural network (CNN) based solution, where we analyse images from random number of regions of the tissue section at multiple magnifications without any necessity of view correspondence across …
+  authors: Kausik Das, Sri Phani Krishna Karri, Abhijit Guha Roy, Jyotirmoy Chatterjee, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7950690/
+    display:  2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017)
+  highlight: false
+  
+- title: "Supervised domain adaptation of decision forests: Transfer of models trained in vitro for in vivo intravascular ultrasound tissue characterization"
+  description: In this paper, we propose a supervised domain adaptation (DA) framework for adapting decision forests in the presence of distribution shift between training (source) and testing (target) domains, given few labeled examples. We introduce a novel method for DA through an error-correcting hierarchical transfer relaxation scheme with domain alignment, feature normalization, and leaf posterior reweighting to correct for the distribution shift between the domains. For the first time we apply DA to the challenging problem of extending in vitro trained forests (source domain) for in vivo applications (target domain). The proof-of-concept is provided for in vivo characterization of atherosclerotic tissues using intravascular ultrasound signals, where presence of flowing blood is a source of distribution shift between the two domains. This potentially leads to misclassification upon direct deployment of in vitro trained classifier, thus …
+  authors: Sailesh Conjeti, Amin Katouzian, Abhijit Guha Roy, Loïc Peter, Debdoot Sheet, Stéphane Carlier, Andrew Laine, Nassir Navab
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S1361841516000207
+    display:  Medical image analysis
+  highlight: false
+  
+- title: "Joint learning of ultrasonic backscattering statistical physics and signal confidence primal for characterizing atherosclerotic plaques using intravascular ultrasound"
+  description: Intravascular Ultrasound (IVUS) is a predominant imaging modality in interventional cardiology. It provides real-time cross-sectional images of arteries and assists clinicians to infer about atherosclerotic plaques composition. These plaques are heterogeneous in nature and constitute fibrous tissue, lipid deposits and calcifications. Each of these tissues backscatter ultrasonic pulses and are associated with a characteristic intensity in B-mode IVUS image. However, clinicians are challenged when colocated heterogeneous tissue backscatter mixed signals appearing as non-unique intensity patterns in B-mode IVUS image. Tissue characterization algorithms have been developed to assist clinicians to identify such heterogeneous tissues and assess plaque vulnerability. In this paper, we propose a novel technique coined as Stochastic Driven Histology (SDH) that is able to provide information about co-located …
+  authors: Debdoot Sheet, Athanasios Karamalis, Abouzar Eslami, Peter Noël, Jyotirmoy Chatterjee, Ajoy K Ray, Andrew F Laine, Stephane G Carlier, Nassir Navab, Amin Katouzian
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S1361841513001436
+    display:  Medical image analysis
+  highlight: false
+  
+- title: "Lumen segmentation in intravascular optical coherence tomography using backscattering tracked and initialized random walks"
+  description: Intravascular imaging using ultrasound or optical coherence tomography (OCT) is predominantly used to adjunct clinical information in interventional cardiology. OCT provides high-resolution images for detailed investigation of atherosclerosis induced thickening of the lumen wall resulting in arterial blockage and triggering acute coronary events. However, the stochastic uncertainty of speckles limits effective visual investigation over large volume of pullback data, and clinicians are challenged by their inability to investigate subtle variations in the lumen topology associated with plaque vulnerability and onset of necrosis. This paper presents a lumen segmentation method using OCT imaging physics-based graph representation of signals and random walks image segmentation approaches. The edge weights in the graph are assigned incorporating OCT signal attenuation physics models. Optical backscattering …
+  authors: Abhijit Guha Roy, Sailesh Conjeti, Stephane G Carlier, Pranab K Dutta, Adnan Kastrati, Andrew F Laine, Nassir Navab, Amin Katouzian, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7041156/
+    display:  IEEE journal of biomedical and health informatics
+  highlight: false
+  
+- title: "Dasa: Domain adaptation in stacked autoencoders using systematic dropout"
+  description: Domain adaptation deals with adapting behaviour of machine learning based systems trained using samples in source domain to their deployment in target domain where the statistics of samples in both domains are dissimilar The task of directly training or adapting a learner in the target domain is challenged by lack of abundant labeled samples. In this paper we propose a technique for domain adaptation in stacked autoencoder (SAE) based deep neural networks (DNN) performed in two stages, (i) unsupervised weight adaptation using systematic dropouts in mini-batch training, (ii) supervised fine-tuning with limited number of labeled samples in target domain. We experimentally evaluate performance in the problem of retinal vessel segmentation where the SAE-DNN is trained using large number of labeled samples in the source domain (DRIVE dataset) and adapted using less number of labeled samples in …
+  authors: Abhijit Guha Roy, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7486600/
+    display:  2015 3rd IAPR Asian Conference on Pattern Recognition (ACPR)
+  highlight: false
+  
+- title: "Modulating prime molecular expressions and in vitro wound healing rate in keratinocyte (HaCaT) population under characteristic honey dilutions"
+  description: Ethnopharmacology relevance In traditional medicines honey is known for healing efficacy and vividly used as “Anupan” in Ayurvedic medicines appreciating roles in dilutions. Validating efficacy of physico-chemically characterized honey in dilutions, studies on in vitro wound healing and attainment of cellular confluence epithelial cells including expressions of cardinal genes is crucial. To evaluate effects of characterized honey in varied dilutions on cellular viability, in vitro wound healing and modulation of prime epithelial gene expressions. Materials and methods Six Indian honey-samples from different sources were physico-chemically characterized and optimal one was explored in dilutions (v/v%) through in vitro studies on human epithelial (HaCaT) cells for viability, wound healing and expressions of genes p63, E-cadherin, β-catenin, GnT-III and GnT-V. Results Studied honey samples (i.e. A–F) depicted range of …
+  authors: Amrita Chaudhary, Swarnendu Bag, Mousumi Mandal, Sri Phani Krishna Karri, Ananya Barui, Monika Rajput, Provas Banerjee, Debdoot Sheet, Jyotirmoy Chatterjee
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0378874115001610
+    display: Journal of ethnopharmacology
+  highlight: false
+  
+- title: "Hunting for necrosis in the shadows of intravascular ultrasound"
+  description: Coronary artery disease leads to failure of coronary circulation secondary to accumulation of atherosclerotic plaques. In adjunction to primary imaging of such vascular plaques using coronary angiography or alternatively magnetic resonance imaging, intravascular ultrasound (IVUS) is used predominantly for diagnosis and reporting of their vulnerability. In addition to plaque burden estimation, necrosis detection is an important aspect in reporting of IVUS. Since necrotic regions generally appear as hypoechic, with speckle appearance in these regions resembling true shadows or severe signal dropout regions, it contributes to variability in diagnosis. This dilemma in clinical assessment of necrosis imaged with IVUS is addressed in this work. In our approach, fidelity of the backscattered ultrasonic signal received by the imaging transducer is initially estimated. This is followed by identification of true necrosis using …
+  authors: Debdoot Sheet, Athanasios Karamalis, Abouzar Eslami, Peter Noël, Renu Virmani, Masataka Nakano, Jyotirmoy Chatterjee, Ajoy K Ray, Andrew F Laine, Stephane G Carlier, Nassir Navab, Amin Katouzian
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0895611113001353
+    display: Computerized Medical Imaging and Graphics
+  highlight: false
+  
+- title: "High-magnification multi-views based classification of breast fine needle aspiration cytology cell samples using fusion of decisions from deep convolutional networks"
+  description: Fine needle aspiration cytology is commonly used for diagnosis of breast cancer, with traditional practice being based on the subjective visual assessment of the breast cytopathology cell samples under a microscope to evaluate the state of various cytological features. Therefore, there are many challenges in maintaining consistency and reproducibility of findings. However, digital imaging and computational aid in diagnosis can improve the diagnostic accuracy and reduce the effective workload of pathologists. This paper presents a deep convolutional neural network (CNN) based classification approach for the diagnosis of the cell samples using their microscopic high-magnification multi-views. The proposed approach has been tested using GoogLeNet architecture of CNN on an image dataset of 37 breast cytopathology samples (24 benign and 13 malignant), where the network was trained using images of 54% cell samples and tested on the rest, achieving 89.7% mean accuracy in 8 fold validation.
+  authors: Hrushikesh Garud, Sri Phani Krishna Karri, Debdoot Sheet, Jyotirmoy Chatterjee, Manjunatha Mahadevappa, Ajoy K Ray, Arindam Ghosh, Ashok K Maity
+  link:
+    url: http://openaccess.thecvf.com/content_cvpr_2017_workshops/w8/html/Garud_High-Magnification_Multi-Views_Based_CVPR_2017_paper.html
+    display: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops
+  highlight: false
+  
+- title: "An unsupervised approach for overlapping cervical cell cytoplasm segmentation"
+  description: The poor contrast and the overlapping of cervical cell cytoplasm are the major issues in the accurate segmentation of cervical cell cytoplasm. This paper presents an automated unsupervised cytoplasm segmentation approach which can effectively find the cytoplasm boundaries in overlapping cells. The proposed approach first segments the cell clumps from the cervical smear image and detects the nuclei in each cell clump. A modified Otsu method with prior class probability is proposed for accurate segmentation of nuclei from the cell clumps. Using distance regularized level set evolution, the contour around each nucleus is evolved until it reaches the cytoplasm boundaries. Promising results were obtained by experimenting on ISBI 2015 challenge dataset.
+  authors: Pranav Kumar, SL Happy, Swarnadip Chatterjee, Debdoot Sheet, Aurobinda Routray
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7843424/
+    display: 2016 IEEE EMBS Conference on Biomedical Engineering and Sciences (IECBES)
+  highlight: false
+  
+- title: "Learning of speckle statistics for in vivo and noninvasive characterization of cutaneous wound regions using laser speckle contrast imaging"
+  description:  Laser speckle contrast imaging (LSCI) provides a noninvasive and cost effective solution for in vivo monitoring of blood flow. So far, most of the researches consider changes in speckle pattern (i.e. correlation time of speckle intensity fluctuation), account for relative change in blood flow during abnormal conditions. This paper introduces an application of LSCI for monitoring wound progression and characterization of cutaneous wound regions on mice model. Speckle images are captured on a tumor wound region at mice leg in periodic interval. Initially, raw speckle images are converted to their corresponding contrast images. Functional characterization begins with first segmenting the affected area using k-means clustering, taking wavelet energies in a local region as feature set. In the next stage, different regions in wound bed are clustered based on progressive and non-progressive nature of tissue properties …
+  authors: Kausik Basak, Goutam Dey, Manjunatha Mahadevappa, Mahitosh Mandal, Debdoot Sheet, Pranab Kumar Dutta
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0026286216300383
+    display: Microvascular research
+  highlight: false
+
+- title: "Global spectral and local molecular connects for optical coherence tomography features to classify oral lesions towards unravelling quantitative imaging biomarkers"
+  description: The biopsy based diagnosis of oral precancers like leukoplakia (OLK) and submucous fibrosis (OSF) as well as squamous cell carcinoma (OSCC) suffers from observer specific variability. The present work explores the utility of intensity and textural features from optical coherence tomography (OCT) images after specific feature subset selection for precise classification of oral lesions using variants of support vector machine. Concomitant application of Fourier transform infrared (FTIR) spectroscopy for endorsing global biochemical signatures, and histochemistry was performed further for value addition of the OCT findings. Immunohistochemical findings for characterization of specific local molecular alteration were also included in this. Result suggested that, OCT features could differentiate the lesions with high sensitivity and specificity. The FTIR result showed glycogen, keratin and carbohydrate related alteration in …
+  authors: Satarupa Banerjee, Swarnadip Chatterjee, Anji Anura, Jitamanyu Chakrabarty, Mousumi Pal, Bhaskar Ghosh, Ranjan Rashmi Paul, Debdoot Sheet, Jyotirmoy Chatterjee
+  link:
+    url: https://pubs.rsc.org/doi/c5ra24117k
+    display: RSC Advances
+  highlight: false  
+  
+- title: "Unsupervised segmentation of overlapping cervical cell cytoplasm"
+  description: Overlapping of cervical cells and poor contrast of cell cytoplasm are the major issues in accurate detection and segmentation of cervical cells. An unsupervised cell segmentation approach is presented here. Cell clump segmentation was carried out using the extended depth of field (EDF) image created from the images of different focal planes. A modified Otsu method with prior class weights is proposed for accurate segmentation of nuclei from the cell clumps. The cell cytoplasm was further segmented from cell clump depending upon the number of nucleus detected in that cell clump. Level set model was used for cytoplasm segmentation.
+  authors: SL Happy, Swarnadip Chatterjee, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1505.05601
+    display: arXiv preprint arXiv:1505.05601
+  highlight: false  
+
+- title: "Bag of forests for modelling of tissue energy interaction in optical coherence tomography for atherosclerotic plaque susceptibility assessment"
+  description: Atherosclerosis assessment using the high resolution of intravascular optical coherence tomography (IV-OCT) enables the visualisation of tissue pools which are susceptible to rupture. However, the stochastic nature of OCT speckles leads to subjectivity in interpretation. In this paper, we present a framework for to OCT tissue energy interaction driven marker for identifying susceptible pool of tissues. The local statistics of OCT speckles is coupled with estimate of optical attenuation and signal confidence measures in a multiscale approach. Further, a bag of random forests is trained on a bank of 22 OCT cross-sections where susceptible tissues have been identified by correlating with the histology. Evaluating the performance on 22 other diverse cross-sections substantiates robustness of the framework. It is envisaged that this framework would help in objective assessment of plaque susceptibility and aid in more …
+  authors: Abhijit Guha Roy, Sailesh Conjeti, Stephane G Carlier, Andreas König, Adnan Kastrati, Pranab K Dutta, Andrew F Laine, Nassir Navab, Debdoot Sheet, Amin Katouzian
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7163903/
+    display: 2015 IEEE 12th International Symposium on Biomedical Imaging (ISBI)
+  highlight: false
+    
+- title: "Anatomical Structure Segmentation in Ultrasound Volumes using Cross Frame Belief Propagating Iterative Random Walks"
+  description: Ultrasound (US) is a widely used as a low-cost alternative to computed tomography (CT) or magnetic resonance (MRI) and primarily for preliminary imaging. Since speckle intensity in US images is inherently stochastic, readers are often challenged in their ability to identify the pathological regions in a volume of a large number of images. This paper introduces a generalized approach for volumetric segmentation of structures in US images and volumes. We employ an iterative random walks (IRW) solver, random forest (RF) learning model, and a gradient vector flow (GVF) based inter-frame belief propagation technique for achieving cross-frame volumetric segmentation. At the start, a weak estimate the tissue structure is obtained using estimates of parameters of a statistical mechanics model of ultrasound tissue interaction. Ensemble learning of these parameters further using a random forest is used to initialize the …
+  authors: Debarghya China, Alfredo Illanes, Prabal Poudel, Michael Friebe, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/8437155/
+    display: IEEE Journal of Biomedical and Health Informatics
+  highlight: false
+  
+- title: "Learning latent temporal connectionism of deep residual visual abstractions for identifying surgical tools in laparoscopy procedures"
+  description: Surgical workflow in minimally invasive interventions like laparoscopy can be modeled with the aid of tool usage information. The video recording during the surgery primarily for viewing the surgical site using endoscope can be leveraged for this purpose without the need for additional sensors or instruments. We propose a method which learns to detect the tool presence in laparoscopy videos by leveraging the temporal information of the systematically executed surgical procedures and higher abstractions of the spatial visual features extracted from the surgical video. We propose a framework consisting of using Convolutional Neural Networks for extracting the visual features and Long Short-Term Memory network to encode the temporal information. The proposed framework has been experimentally verified using a publicly available dataset consisting of 10 training and 5 testing annotated videos with an average accuracy of 88.75% in detection of tool presence.
+  authors: Kaustuv Mishra, Rachana Sathish, Debdoot Sheet
+  link:
+    url: http://openaccess.thecvf.com/content_cvpr_2017_workshops/w37/html/Mishra_Learning_Latent_Temporal_CVPR_2017_paper.html
+    display: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops
+  highlight: false
+  
+- title: "Fully Convolutional Model for Variable Bit Length and Lossy High Density Compression of Mammograms"
+  description: Early works on medical image compression date to the 1980’s with the impetus on deployment of teleradiology systems for high-resolution digital X-ray detectors. Commercially deployed systems during the period could compress 4,096× 4,096 sized images at 12 bpp to 2 bpp using lossless arithmetic coding, and over the years JPEG and JPEG2000 were imbibed reaching upto 0.1 bpp. Inspired by the reprise of deep learning based compression for natural images over the last two years, we propose a fully convolutional autoencoder for diagnostically relevant feature preserving lossy compression. This is followed by leveraging arithmetic coding for encapsulating high redundancy of features for further high-density code packing leading to variable bit length. We demonstrate performance on two different publicly available digital mammography datasets using peak signal-to-noise ratio (pSNR), structural similarity (SSIM) index and domain adaptability tests between datasets. At high density compression factors of> 300×(0.04 bpp), our approach rivals JPEG and JPEG2000 as evaluated through a Radiologist’s visual Turing test.
+  authors: Aupendu Kar, Sri Phani Krishna Karri, Nirmalya Ghosh, Ramanathan Sethuraman, Debdoot Sheet
+  link:
+    url: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w50/Kar_Fully_Convolutional_Model_CVPR_2018_paper.pdf
+    display: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
+  highlight: true
+
+- title: "Multiple instance learning of deep convolutional neural networks for breast histopathology whole slide classification"
+  description: Whole slide histopathology images are the digitised version of physical slides that are acquired by stitching multiple overlapping image patches acquired at different optical magnifications. Typically sized at 2 GB per slide, computer aided analysis for whole slide pathology classification is a challenging task. Since local image patches generally provide more discriminative information as compared to the whole slide, challenges are associated with handling pathological heteregeneity varying across the whole slide. Given this challenge to classify the slide pathology using local image patches, in this paper we propose a multiple instance learning (MIL) framework for convolutional neural network (CNN). We introduce a new pooling layer that helps to aggregate most informative features from patches constituting a whole slide, without necessitating inter-patch overlap or global slide coverage. This helps our method to …
+  authors: Kausik Das, Sailesh Conjeti, Abhijit Guha Roy, Jyotirmoy Chatterjee, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/8363642/
+    display: 2018 IEEE 15th International Symposium on Biomedical Imaging (ISBI 2018)
+  highlight: false
+  
+- title: "Immersive augmented reality system for assisting needle positioning during ultrasound guided intervention"
+  description: Ultrasound (US) guided intervention is a surgical procedure where the clinician makes use of imaging in realtime, to track the position of the needle, and correct its trajectory for accurately steering it to the lesion of interest. However, the needle is visible in the US image, only when aligned in-plane with the scanning plane of the US probe. In practice, clinicians often use a mechanical needle guide, thus restricting their available degrees of freedom in the US probe movement. Alternatively, during free-hand procedure, they use multiple needle punctures to achieve this in-plane positioning. Our present work details an augmented reality (AR) system for patient comfort centric aid to needle intervention through an overlaid visualization of the needle trajectory on the US frame prior to its insertion. This is implemented by continuous visual tracking of the US probe and the needle in 3D world coordinate system using fiducial …
+  authors: Praveen Kumar Kanithi, Jyotirmoy Chatterjee, Debdoot Sheet
+  link:
+    url: https://dl.acm.org/citation.cfm?id=3010023
+    display: Proceedings of the Tenth Indian Conference on Computer Vision, Graphics and Image Processing
+  highlight: false
+  
+- title: "Multiscale distribution preserving autoencoders for plaque detection in intravascular optical coherence tomography"
+  description: Interventional cardiologists use intravascular imaging techniques like optical coherence tomography (OCT) as adjunct to angiography for detailed diagnosis of atherosclerosis. Each tissue type is associated with characteristic speckle intensity distribution, which forms the basis for tissue characterization (TC). Classical approaches follow statistical machine learning using apriori assumed speckle models, and are challenged by inability to discriminate high tissue heterogeneity. As a first of its kind approach, we solve this problem in absence of a well studied distribution, by learning the multiscale statistical distribution model of the data using our proposed distribution preserving (DP) autoencoder (AE) based neural network (NN). The learning rule introduces a scale importance parameter associated with error backpropagation. We have evaluated performance of DPAE vs. prior-art and AE (with L2 norm and cross …
+  authors: Abhijit Guha Roy, Sailesh Conjeti, Stephane G Carlier, Khalil Houissa, Andreas König, Pranab K Dutta, Andrew F Laine, Nassir Navab, Amin Katouzian, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7493519/
+    display: 2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI)
+  highlight: false
+  
+- title: "Transfer learning of tissue photon interaction in optical coherence tomography towardsin vivo histology of the oral mucosa"
+  description: Oral cancer evolves from different premalignant conditions and the key to save lives is through diagnosis of early symptoms. The conventional practice of post biopsy histopathology reporting is dependent on specificity of sampling site and optical coherence tomography (OCT) imaging is clinically used for guidance. Clinicians infer the tissue constitution by interpreting intensity images and are challenged by inter-and intra-observer variability. In this paper we propose transfer learning of tissue specific photon interaction statistical physics in swept-source OCT for characterizing the oral mucosa with the aim of reducing this reporting variability. The source task models statistical physics of ballistic and near-ballistic photons and its intensity attenuation and target task learns the parameters obtained by solving the source task to identify co-located heterogeneity of tissues. Performance is compared with conventional …
+  authors: Debdoot Sheet, Satarupa Banerjee, Sri Phani Krishna Karri, Swarnendu Bag, Anji Anura, Amita Giri, Ranjan Rashmi Paul, Mousumi Pal, Badal C Sarkar, Ranjan Ghosh, Amin Katouzian, Nassir Navab, Ajoy K Ray
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/6868137/
+    display: 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI)
+  highlight: false
+  
+- title: "Adaptive weighted-local-difference order statistics filters"
+  description: A novel modification to the order statistics filters called the Adaptive Weighted-Local-Difference Order Statistics is shown that will act as a generic framework for the design of adaptive filters suitable for specific signal processing applications. To demonstrate the design of filters using this framework two implementations were defined and evaluated. Edge Orientation Adaptive Weighted-Local-Difference Median Filter (EOAWLDMF) and Luminance-Similarity Adaptive Weighted-Local-Difference Median Filter (LSAWLDMF) for restoration of noisy images.
+  authors: Hrushikesh Tukaram Garud, Debdoot Sheet, Ajoy Kumar Ray, Manjunatha Mahadevappa, Jyotirmoy Chatterjee
+  link:
+    url: https://patents.google.com/patent/US9208545B2/en
+    display: US Patent
+  highlight: false 
+  
+- title: "Mutually coherent structural representation for image registration through joint manifold embedding and alignment"
+  description: In this paper, we introduce mutually coherent structural representations (McSR) for image registration which learns a mapping of local structural descriptors to create a unique scalar representation, which is similar across modalities. The McSR is learnt using joint alignment and embedding of Laplacian eigenmaps using modality-combination specific dense structural descriptors. The resulting alternate image representation offers richer structurally-driven information for registration while being invariant to inter-modal differences in intensities. The proposed formulation has been evaluated for robustness and registration error on standard multimodal brain image datasets. It is observed to demonstrate superior systematic recovery and performance over comparative simultaneous registration methods.
+  authors: Sailesh Conjeti, Mehmet Yigitsoy, Debdoot Sheet, Jyotirmoy Chatterjee, Nassir Navab, Amin Katouzian
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7163945/
+    display: 2015 IEEE 12th International Symposium on Biomedical Imaging (ISBI)
+  highlight: false
+  
+- title: "Learning scale-space representation of nucleus for accurate localization and segmentation of epithelial squamous nuclei in cervical smears"
+  description: Computer vision systems are being introduced in pre-screening of cervical cytopathology slides to identify samples that require study by cytopathologists. These systems work on the principle of imaging and analysis of cytology features in general and nuclear features in particular. Thus accurate localization and segmentation of the nuclei is crucial for the systems. Though several methods have been conceptualized, developed and employed to achieve the tasks of localization and segmentation of nuclei in cytology images, most fail to localize nuclei with opened up chromatin. This paper presents a machine learning approach based framework for accurate localization and segmentation of nuclei. The approach uses the random forest model to learn complete scale-space representation of the nuclear chromatin distribution in green and color saturation channels. Based on the multi scale features of an unknown …
+  authors: Sri Phani Krishna Karri, Hrushikesh Garud, Debdoot Sheet, Jyotirmoy Chatterjee, Debjani Chakraborty, Ajoy Kumar Ray, Manjunatha Mahadevappa
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/6864478/
+    display: IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+  highlight: false
+  
+- title: "UltraCompression: Framework for High Density Compression of Ultrasound Volumes using Physics Modeling Deep Neural Networks"
+  description: Ultrasound image compression by preserving speckle-based key information is a challenging task. In this paper, we introduce an ultrasound image compression framework with the ability to retain realism of speckle appearance despite achieving very high-density compression factors. The compressor employs a tissue segmentation method, transmitting segments along with transducer frequency, number of samples and image size as essential information required for decompression. The decompressor is based on a convolutional network trained to generate patho-realistic ultrasound images which convey essential information pertinent to tissue pathology visible in the images. We demonstrate generalizability of the building blocks using two variants to build the compressor. We have evaluated the quality of decompressed images using distortion losses as well as perception loss and compared it with other off the shelf solutions. The proposed method achieves a compression ratio of  while preserving the statistical distribution of speckles. This enables image segmentation on decompressed images to achieve dice score of , which evidently is not so accurately achievable when images are compressed with current standards like JPEG, JPEG 2000, WebP and BPG. We envision this frame work to serve as a roadmap for speckle image compression standards.
+  authors: Debarghya China, Francis Tom, Sumanth Nandamuri, Aupendu Kar, Mukundhan Srinivasan, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1901.05880
+    display: arXiv preprint arXiv:1901.05880
+  highlight: true
+  
+- title: "Evaluation of Commonly Used Algorithms for Thyroid Ultrasound Images Segmentation and Improvement Using Machine Learning Approaches"
+  description: The thyroid is one of the largest endocrine glands in the human body, which is involved in several body mechanisms like controlling protein synthesis and the body's sensitivity to other hormones and use of energy sources. Hence, it is of prime importance to track the shape and size of thyroid over time in order to evaluate its state. Thyroid segmentation and volume computation are important tools that can be used for thyroid state tracking assessment. Most of the proposed approaches are not automatic and require long time to correctly segment the thyroid. In this work, we compare three different nonautomatic segmentation algorithms (i.e., active contours without edges, graph cut, and pixel-based classifier) in freehand three-dimensional ultrasound imaging in terms of accuracy, robustness, ease of use, level of human interaction required, and computation time. We figured out that these methods lack automation and machine intelligence and are not highly accurate. Hence, we implemented two machine learning approaches (i.e., random forest and convolutional neural network) to improve the accuracy of segmentation as well as provide automation. This comparative study intends to discuss and analyse the advantages and disadvantages of different algorithms. In the last step, the volume of the thyroid is computed using the segmentation results, and the performance analysis of all the algorithms is carried out by comparing the segmentation results with the ground truth.
+  authors: Prabal Poudel, Alfredo Illanes, Debdoot Sheet, Michael Friebe
+  link:
+    url: https://www.hindawi.com/journals/jhe/2018/8087624/abs/
+    display: Journal of healthcare engineering
+  highlight: false
+  
+- title: "On the Fly Segmentation of Intravascular Ultrasound Images Powered by Learning of Backscattering Physics"
+  description: Intravascular ultrasound (IVUS) is commonly used as an adjunct to the imaging-based diagnosis of vascular plaques that have been primarily imaged with computed tomography angiography (CTA) or magnetic resonance angiography (MRA). Since speckle intensity in IVUS images are inherently stochastic in nature, clinicians face the critical challenge of identifying vessel boundaries. In this Introduction, we present a method for segmenting the lumen and external elastic laminae in IVUS images of coronary arteries via a two-stage framework. The first stage employs an understanding of the physics of the interaction between ultrasound and tissue as a statistical mechanical parametric framework, and ensemble learning of this parametric space to initialize lumen and external elastic luminae boundary contours. Subsequently, in the second stage, these initialized contours are solved using a random walker solution. While both ...
+  authors: Debarghya China, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-65981-7_13
+    display: Springer, Cham
+  highlight: false
+  
+- title: "Simultaneous localization and classification of acute lymphoblastic leukemic cells in peripheral blood smears using a deep convolutional network with average pooling layer"
+  description: It is important to analyze and classify the blood cells for the evaluation and diagnosis of many diseases. Acute Lymphoblastic Leukemia (ALL) is a blood cancer mostly found in children below the age of 7-8 years. It can be fatal if left untreated. ALL cells are abnormal lymphocytes that have a condensed appearance to their chromatin. ALL can be detected through the analysis of white blood cells (WBCs) also called as leukocytes. Presently the morphological analysis of blood cells is performed manually by skilled operators, which makes it a time-taking and non-standardized process. This paper presents a novel deep learning approach to automate the process of detecting ALL from whole-slide blood smear images. Previous work in this domain deal with the isolation and classification of WBCs based on certain morphological image features. However, this work uses a deep network for simultaneous localization and …
+  authors: Arna Ghosh, Satyarth Singh, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/8300425/
+    display: 2017 IEEE International Conference on Industrial and Information Systems (ICIIS)
+  highlight: false
+
+- title: "Domain Adapted Model for In Vivo Intravascular Ultrasound Tissue Characterization"
+  description: Intravascular ultrasound (IVUS) is a real-time cross-sectional imaging modality deployed in interventional cardiology for assessment of the extent of atherosclerosis. Visual reading of IVUS pull-backs is subject to inter- and intra-observer variability in reporting of vulnerable plaques causing myocardial infraction. In vivo IVUS tissue characterization (TC) aims at augmenting information about the constituent tissues beyond features visible in the log-compressed B-Mode scan by effectively leveraging characteristic ultrasonic backscattered signals acquired during live intervention. The co-located heterogeneity of biological tissues constituting the plaque, the presence of flowing blood and vessel dynamics openly challenge in vivo TC. As a solution, we introduce a framework that first uses a decision forest based classifier that learns to perform TC using tissue specific ultrasonic statistical physics and signal confidence …
+  authors: S Conjeti, AG Roy, D Sheet, S Carlier, T Syeda-Mahmood, N Navab, A Katouzian
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/B9780128110188000072
+    display: Academic Press
+  highlight: false
+  
+- title: "Segmentation of Lumen and External Elastic Laminae in Intravascular Ultrasound Images Using Ultrasonic Backscattering Physics Initialized Multiscale "
+  description: Coronary artery disease accounts for a large number of deaths across the world and clinicians generally prefer using x-ray computed tomography or magnetic resonance imaging for localizing vascular pathologies. Interventional imaging modalities like intravascular ultrasound (IVUS) are used to adjunct diagnosis of atherosclerotic plaques in vessels, and help assess morphological state of the vessel and plaque, which play a significant role for treatment planning. Since speckle intensity in IVUS images are inherently stochastic in nature and challenge clinicians with accurate visibility of the vessel wall boundaries, it requires automation. In this paper we present a method for segmenting the lumen and external elastic laminae of the artery wall in IVUS images using random walks over a multiscale pyramid of Gaussian decomposed frames. The seeds for the random walker are initialized by supervised learning of …
+  authors: Debarghya China, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-68124-5_34
+    display: International Conference on Computer Vision, Graphics, and Image processing
+  highlight: false 
+  
+- title: "A generalized framework for stain separation in digital pathology applications"
+  description: Microscopic examination of stained tissue sections obtained from biopsies forms the foundation of pathologically diagnosing diseased organs. Although offering a multi-scale view of the system pathology, interpretation is often subjective. Inter- and intra-observer variation in reporting due to limitations in tissue staining methods accounts for this subjectivity. Variation in stain uptake often leads to spectral overlap, variation in image intensities thus affecting the spectral signatures of imaged section and challenging computer assisted diagnosis. Stain density estimation techniques often referred to as digital stain separation have been introduced to overcome such limitations through quantification of amount of local stain uptake by a tissue. This is achieved by decorrelating the spectrally spread signal received by the color imaging sensor. Both blind and unblinded methods have been proposed with each having its own …
+  authors: Biswajoy Ghosh, Sri Phani Krishna Karri, Debdoot Sheet, Hrushikesh Garud, Arindam Ghosh, Ajoy K Ray, Jyotirmoy Chatterjee
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7839070/
+    display: 2016 IEEE Annual India Conference (INDICON)
+  highlight: false 
+  
+- title: "Abnormality Detecting Deep Belief Network"
+  description: Abnormality detection is useful in reducing the amount of data to be processed manually by directing attention to the specific portion of data. However, selections of suitable features are important for the success of an abnormality detection system. Designing and selecting appropriate features are time-consuming, requires expensive domain knowledge and human labor. Further, it is very challenging to represent high-level concepts of abnormality in terms of raw input. Most of the existing abnormality detection system use handcrafted feature detector and are based on shallow architecture. In this work, we explore Deep Belief Network for abnormality detection and simultaneously, compared the performance of classic neural network in terms of features learned and accuracy of detecting the abnormality. Further, we explore the set of features learn by each layer of the deep architecture. We also provide a simple and …
+  authors: Manoj Kumar Sharma, Debdoot Sheet, Prabir Kumar Biswas
+  link:
+    url: https://dl.acm.org/citation.cfm?id=2979790
+    display: Proceedings of the International Conference on Advances in Information Communication Technology & Computing
+  highlight: false 
+  
+- title: "Probabilistic graphical modeling of speckle statistics in laser speckle contrast imaging for noninvasive and label-free retinal angiography"
+  description: This paper introduces a noninvasive and label-free approach for retinal angiography using Laser speckle contrast imaging (LSCI). Retinal vessel structure is segmented using a Hidden Markov Random Field (HMRF) based model. Prior to that, k-means clustering is used to obtain initial parameter set and labels for HMRF. Final parameter set for HMRF is estimated using expectation-maximization (EM) algorithm and final labeling is achieved using maximum aposteriori (MAP) algorithm. Clique energy for HMRF is computed from eigenvalue analysis of structure tensor for each pixel. This helps to get connectivity in the direction of strongest tangents in its neighborhood, facilitating the tracking of fine vessels in retinal vascular network. Quantitative evaluation shows an average vessel segmentation accuracy of 96.41% in normal condition with substantial improvement in tracking capability of fine vessels. Changes in …
+  authors: Kausik Basak, Goutam Dey, Debdoot Sheet, Manjunatha Mahadevappa, Mahitosh Mandal, Pranab K Dutta
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7319819/
+    display: 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+  highlight: false 
+  
+- title: "Deformable registration of immunofluorescence and histology using iterative cross-modal propagation"
+  description: In this work, we cast a multi-modal immunofluorescence to histology registration problem is cast to a mono-modal one by iteratively propagating tissue-specific features from one modality to generate intensities in the other modality via an implicitly learnt random-forest regression framework. The proposed method iterates between modality propagation and image registration in a unified formulation. Evaluations on real and simulated tissue deformations establish superiority of the proposed work over comparative methods in handling highly complex intermodal intensity relationships. This framework will aid in quantitative analysis of the tissue structure, functionality thus providing for co-located molecular validations and bringing in spatial fidelity to histological assessment.
+  authors: Sailesh Conjeti, Mehmet Yigitsoy, Tingying Peng, Debdoot Sheet, Jyotirmoy Chatterjee, Christine Bayer, Nassir Navab, Amin Katouzian
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7163875/
+    display: 2015 IEEE 12th International Symposium on Biomedical Imaging (ISBI)
+  highlight: false 
+  
+- title: "Fully Convolutional Neural Network for Semantic Segmentation of Anatomical Structure and Pathologies in Colour Fundus Images Associated with Diabetic Retinopathy"
+  description: Diabetic retinopathy (DR) is the most common form of diabetic eye disease. Retinopathy can affect all diabetic patients and becomes particularly dangerous, increasing the risk of blindness, if it is left untreated. The success rate of its curability solemnly depends on diagnosis at an early stage. The development of automated computer aided disease diagnosis tools could help in faster detection of symptoms with a wider reach and reasonable cost. This paper proposes a method for the automated segmentation of retinal lesions and optic disk in fundus images using a deep fully convolutional neural network for semantic segmentation. This trainable segmentation pipeline consists of an encoder network, a corresponding decoder network followed by pixel-wise classification to segment microaneurysms, hemorrhages, hard exudates, soft exudates, optic disk from background. The network was trained using Binary cross entropy criterion with Sigmoid as the last layer, while during an additional SoftMax layer was used for boosting response of single class. The performance of the proposed method is evaluated using sensitivity, positive prediction value (PPV) and accuracy as the metrices. Further, the position of the Optic disk is localised using the segmented output map.
+  authors: Oindrila Saha, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1902.03122
+    display: arXiv preprint arXiv:1902.03122
+  highlight: false 
+  
+- title: "SUMNet: Fully Convolutional Model for Fast Segmentation of Anatomical Structures in Ultrasound Volumes"
+  description: Ultrasound imaging is generally employed for real-time investigation of internal anatomy of the human body for disease identification. Delineation of the anatomical boundary of organs and pathological lesions is quite challenging due to the stochastic nature of speckle intensity in the images, which also introduces visual fatigue for the observer. This paper introduces a fully convolutional neural network based method to segment organ and pathologies in ultrasound volume by learning the spatial-relationship between closely related classes in the presence of stochastically varying speckle intensity. We propose a convolutional encoder-decoder like framework with (i) feature concatenation across matched layers in encoder and decoder and (ii) index passing based unpooling at the decoder for semantic segmentation of ultrasound volumes. We have experimentally evaluated the performance on publicly available datasets consisting of  intravascular ultrasound pullback acquired at  MHz and  freehand thyroid ultrasound volumes acquired  MHz. We have obtained a dice score of  and respectively, following a -fold cross-validation experiment while processing frame of  pixel in  s and a volume of  voxel in  s.
+  authors: Sumanth Nandamuri, Debarghya China, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1901.06920
+    display: arXiv preprint arXiv:1901.06920
+  highlight: true 
+  
+- title: "Learning a Deep Convolution Network with Turing Test Adversaries for Microscopy Image Super Resolution"
+  description: Adversarially trained deep neural networks have significantly improved performance of single image super resolution, by hallucinating photorealistic local textures, thereby greatly reducing the perception difference between a real high resolution image and its super resolved (SR) counterpart. However, application to medical imaging requires preservation of diagnostically relevant features while refraining from introducing any diagnostically confusing artifacts. We propose using a deep convolutional super resolution network (SRNet) trained for (i) minimising reconstruction loss between the real and SR images, and (ii) maximally confusing learned relativistic visual Turing test (rVTT) networks to discriminate between (a) pair of real and SR images (T1) and (b) pair of patches in real and SR selected from region of interest (T2). The adversarial loss of T1 and T2 while backpropagated through SRNet helps it learn to reconstruct pathorealism in the regions of interest such as white blood cells (WBC) in peripheral blood smears or epithelial cells in histopathology of cancerous biopsy tissues, which are experimentally demonstrated here. Experiments performed for measuring signal distortion loss using peak signal to noise ratio (pSNR) and structural similarity (SSIM) with variation of SR scale factors, impact of rVTT adversarial losses, and impact on reporting using SR on a commercially available artificial intelligence (AI) digital pathology system substantiate our claims.
+  authors: Francis Tom, Himanshu Sharma, Dheeraj Mundhra, Tathagato Rai Dastidar, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1901.06405
+    display: arXiv preprint arXiv:1901.06405
+  highlight: false
+
+- title: "Phase Identification and Workflow Modeling in Laparoscopy Surgeries Using Temporal Connectionism of Deep Visual Residual Abstractions"
+  description: The phase recognition task has been performed on different types of surgeries which ranges from cataract to neurological to laparoscopic intervention. The visual features of a surgical video can be used to identify the surgical phases in laparoscopic interventions. Owing to the significant improvement in performance exhibited by convolutional neural networks (CNN) on various challenging tasks like image classification, action recognition etc., they are widely used as feature extractors. In the proposed framework, features extracted by a CNN are used for phase recognition. The task of phase recognition in surgical videos is rendered challenging because of the presence of motion blur produced to the mobile nature of the recording device and the high variance in scenes observed during the course of the surgery. Also, blood stains on the camera lens and complete or partial occlusion of the scene captured by …
+  authors: Kaustuv Mishra, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-11479-4_10
+    display: Springer, Cham
+  highlight: false 
+  
+- title: "Deep Neural Architecture for Localization and Tracking of Surgical Tools in Cataract Surgery"
+  description: Over the last couple of decades, the quality of surgical interventions has improved owing to the use of computer vision and robotic assistance. One such application of computer vision, namely, detection of surgical tools in videos is gaining attention of the medical image processing community. The main motivation for detection, localization, and annotation of surgical tools is to develop applications for surgical wsorkflow analysis. Such an analysis can aid in report generation, real-time decision support, etc. Cataract surgery is one of the common surgical procedure where surgeons do have direct visual access to the surgical site. Extremely small tools are used for this procedure and the surgeons observe the surgical site through a surgical microscope. In such cases, detecting the presence of tools can act an additional aid to the surgeon as well as other surgical staffs. We propose a framework consisting of a …
+  authors: Neha Banerjee, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-04061-1_4
+    display: Springer, Cham
+  highlight: false
+  
+- title: "A Deep Convolutional Neural Network Based Classification Of Multi-Class Motor Imagery With Improved Generalization"
+  description: Motor imagery (MI) based brain-computer interface (BCI) plays a crucial role in various scenarios ranging from post-traumatic rehabilitation to control prosthetics. Computer-aided interpretation of MI has augmented prior mentioned scenarios since decades but failed to address interpersonal variability. Such variability further escalates in case of multi-class MI, which is currently a common practice. The failures due to interpersonal variability can be attributed to handcrafted features as they failed to extract more generalized features. The proposed approach employs convolution neural network (CNN) based model with both filtering (through axis shuffling) and feature extraction to avail end-to-end training. Axis shuffling is performed adopted in initial blocks of the model for 1D preprocessing and reduce the parameters required. Such practice has avoided the overfitting which resulted in an improved generalized model …
+  authors: Aupendu Kar, Sutanu Bera, SP K Karri, Sudipta Ghosh, Manjunatha Mahadevappa, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/8513451/
+    display: 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+  highlight: false
+  
+- title: "Object detection technique for malaria parasite in thin blood smear images"
+  description: The infected red blood cell pixel count in thin blood smear image plays a vital role in malaria parasite detection analysis. This paper proposes three stage object detection procedure of computer vision with Kernel-based detection and Kalman filtering process to detect malaria parasite. The use of Kernel based detection with exact pixel information makes the proposed procedure capable of accurately detecting and localizing the target infected by malaria parasites in thin blood smear images. The experiment is conducted on several microscopically preliminary screened benchmark gold standard diagnosis datasets of blood smear images, each 300×300 pixels of Plasmodium falciparum in thin blood smear images. The 300×300 size images were split into overlapping patches, each of size 50×50 pixels. The experimental results on the malaria blood smear image datasets demonstrate the effectiveness of the …
+  authors: PA Pattanaik, Tripti Swarnkar, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/8217986/
+    display: 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+  highlight: false
+  
+- title: "Methods and System for Segmentation of Isolated Nuclei in Microscopic Breast Fine Needle Aspiration Cytology Images"
+  description: Computer vision systems for automated breast cancer diagnosis using Fine Needle Aspiration Cytology (FNAC) images are under development for a while now. Accurate segmentation of the nuclei in microscopic images is crucial for functioning of these systems, as most quantify and analyze nuclear features for diagnosis. This paper presents a nucleus segmentation system (NSS) involving pre-processing, pre-segmentation and refined segmentation stages. The NSS includes a novel pixel transformation step to create a high contrast grayscale representation of the input color image. The grayscale image gives NSS the capability- to disregard elements that mimic nuclear morphological and luminescence characteristics, and to minimize effects of non-specific staining of cytoplasm by Hematoxylin. Experimental results illustrate generalizability of the NSS to use multiple refined segmentation techniques and …
+  authors: Hrushikesh Garud, Sri Phani Krishna Karri, Debdoot Sheet, Ashok Kumar Maity, Jyotirmoy Chatterjee, Manjunatha Mahadevappa, Ajoy Kumar Ray
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-68124-5_33
+    display: International Conference on Computer Vision, Graphics, and Image processing
+  highlight: false
+  
+- title: "Tracking of Retinal Microsurgery Tools Using Late Fusion of Responses from Convolutional Neural Network over Pyramidally Decomposed Frames"
+  description: Computer vision and robotic assistance are increasingly being used to improve the quality of surgical interventions. Tool tracking becomes critical in interventions viz. endoscopy, laparoscopy and retinal microsurgery (RM) where unlike open surgery the surgeons do not have direct visual and physical access to the surgical site. RM is performed using miniaturized tools and requires careful observation through a surgical microscope by the surgeon. Tracking of surgical tools primarily provides robotic assistance during surgery and also serves as a means to assess the quality of surgery, which is extremely useful during surgical training. In this paper we propose a deep learning based visual tracking of surgical tool using late fusion of responses from convolutional neural network (CNN) which comprises of 3 steps - (i) training of CNN for localizing the tool tip on a frame (ii) coarsely estimating the tool tip region …
+  authors: Kaustuv Mishra, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-319-68124-5_31
+    display: International Conference on Computer Vision, Graphics, and Image processing
+  highlight: false
+   
+- title: "Limitations with measuring performance of techniques for abnormality localization in surveillance video and how to overcome them?"
+  description: Now a days video surveillance is becoming more popular due to global security concerns and with the increasing need for effective monitoring of public places. The key goal of video surveillance is to detect suspicious or abnormal behavior. Various efforts have been made to detect an abnormality in the video. Further to these advancements, there is a need for better techniques for evaluation of abnormality localization in video surveillance. Existing technique mainly uses forty percent overlap rule with ground-truth data, and does not considers the extra predicted region into the computation. Existing metrics have been found to be inaccurate when more than one region is present within the frame which may or may not be correctly localized or marked as abnormal. This work attempts to bridge these limitations in existing metrics. In this paper, we investigate three existing metrics and discuss their benefits and …
+  authors: Manoj Kumar Sharma, Sayan Sarcar, Debdoot Sheet, Prabir Kumar Biswas
+  link:
+    url: https://dl.acm.org/citation.cfm?id=3010044
+    display: Proceedings of the Tenth Indian Conference on Computer Vision, Graphics and Image Processing
+  highlight: false
+  
+- title: "Method and apparatus for enhancing representations of micro-calcifications in a digital mammogram image"
+  description: Method and apparatus for enhancing representations of micro-calcifications in a digital mammogram image. The method includes smoothing the digital mammogram image using a fuzzy smoothing technique to yield a fuzzy smoothed image. The method includes subtracting the fuzzy smoothed image from the digital mammogram image to yield a micro-calcifications enhanced image. The method includes scaling gray level values of pixels in the micro-calcifications enhanced image by a predetermined amount to provide a digital mammogram image with enhanced representations of the micro-calcifications. Apparatus for enhancing representations of micro-calcifications includes an image processing unit that uses an image acquisition unit to receive an image and a digital signal processor to process the image to provide a digital mammogram image with enhanced representations of micro-calcifications.
+  authors: Hrushikesh Garud, Debdoot Sheet, Amit Suveer, Manjunatha Mahadevappa, Ajoy Kumar Ray
+  link:
+    url: https://patents.google.com/patent/US8634630B2/en
+    display: US Patent
+  highlight: false
+  
+- title: "IEEEPULSe"
+  description: Page 1. november/December 2016 ▼ ieee pulse 1 Digital Object Identifier 10.1109/MPUL. 2016.2606463 8 improving Rural Health By Suhas Gondi and Kavita Patel 13 Tying Tech to Care By Leslie Mertz 16 mHealth to the Rescue By Leslie Mertz 25 Technological innovation Comes to palliative Care By Mary Bates 30 Target Malaria Has a Killer in its sights By Jim Banks 34 Toward a Comprehensive Cure By Debdoot Sheet 38 emotional Matters By Ahmed Morsy 42 Women's Health is personal By Jennifer Berglund 46 image-Guided interventions By Cristian A. Linte and Ziv R. Yaniv 51 New Frontiers in Robotic surgery By Michele Solis features ©IS TOCKPHO TO .COM/MSHEP2, MOS q u IT O IM ag E ©IS TOCKPHO TO .COM/M aTTZ90 pg. 30 november/december 2016 volume 7 ▼ number 6 http://pulse.embs.org …
+  authors: Suhas Gondi, Kavita Patel, Leslie Mertz, Mary Bates, Jim Banks, Debdoot Sheet, Ahmed Morsy, Jennifer Berglund, Cristian A Linte, Ziv R Yaniv, Michele Solis
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7747585/
+    display: IEEE
+  highlight: false
+  
+- title: "Landscaping of random forests through controlled deforestation"
+  description: Random forest (RF) is an ensemble learner constructed using a set of decision trees, where each tree is trained using randomly bootstrapped samples and aggregated to provide a decision. While the generalization error is reduced by increasing the number of trees in a RF, it substantially increases the testing time complexity, inhibiting its fast deployment in practical applications. In this paper, we propose a post-training optimization technique termed landscaping of RF for reducing computational complexity by compensating for trees associated with similar decision boundary. This allows faster deployment of the RF without compromising its performance. Landscaping is achieved through a two stage mechanism (i) computation of decision similarity between all pairs of trees in the RF, and (ii) deletion of the computationally expensive tree in the RF with decision bias compensation for the removed tree. Performance …
+  authors: Kausik Das, Abhijit Guha Roy, Jyotirmoy Chatterjee, Debdoot Sheet
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7561112/
+    display: 2016 Twenty Second National Conference on Communication (NCC)
+  highlight: false
+  
+- title: "optical Coherence Tomographic Attenuation Imaging Based Oral Precancer Diagnosis - Op239."
+  description: Abstract unavailable for this article.
+  authors: Satarupa Banerjee, Debdoot Sheet, Amita Giri, Ranjan Ghosh, Ranjan Rashmi Paul, Mousumi Pal, Jyotirmoy Chatterjee
+  link:
+    url: https://insights.ovid.com/head-neck/headn/2015/07/001/optical-coherence-tomographic-attenuation-imaging/230/01445426
+    display: Head & Neck
+  highlight: false
+  
+- title: "Adaptive Weighted-Local-Difference Order Statistics Filters"
+  description: A novel modification to the order statistics filters called the Adaptive Weighted-Local-Difference Order Statistics is shown that will act as a generic framework for the design of adaptive filters suitable for specific signal processing applications. To demonstrate the design of filters using this framework two implementations were defined and evaluated - Edge Orientation Adaptive Weighted-Local-Difference Median Filter (EOAWLDMF) and Luminance-Similarity Adaptive Weighted-Local-Difference Median Filter (LSAWLDMF) for restoration of noisy images.
+  authors: Hrushikesh Tukaram Garud, Debdoot Sheet, Ajoy Kumar Ray, Manjunatha Mahadevappa, Jyotirmoy Chatterjee
+  link:
+    url: https://patents.google.com/patent/US20150086125A1/en
+    display: US Patent
+  highlight: false
+  
+- title: "BME Trends Around the World: From Baby X to frugal technologies, here's what biomedical engineers are excited about in 2015.[From the Editors]"
+  description: January/february 2015 ieee pulse 5 service providers catering to a niche group located alongside meager publicsector health care service providers dealing, almost unequipped, with a large population. Since most diseases are tropical here and have the potential to spread rapidly, health care providers are increasingly realizing the need to develop economically viable frugal technologies to reach those living in remote areas with limited access to hospitals and clinics. Interestingly, these advances are mostly coming from a number of young players focused on frugal technological solutions who work under the aegis of entrepreneurship incubation clusters spread throughout India.”
+  authors: Shanbao Tong, Debdoot Sheet, Shoaib Bhuiyan, Martha Lucía Zequer Diaz, Andrew Taberne
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7015695/
+    display: IEEE pulse
+  highlight: false
+  
+- title: "Method and apparatus for enhancing representations of micro-calcifications in a digital mammogram image"
+  description: Method and apparatus for enhancing representations of micro-calcifications in a digital mammogram image. The method includes smoothing the digital mammogram image using a fuzzy smoothing technique to yield a fuzzy smoothed image. The method includes subtracting the fuzzy smoothed image from the digital mammogram image to yield a micro-calcifications enhanced image. The method includes scaling gray level values of pixels in the micro-calcifications enhanced image by a predetermined amount to provide a digital mammogram image with enhanced representations of the micro-calcifications. Apparatus for enhancing representations of micro-calcifications includes an image processing unit that uses an image acquisition unit to receive an image and a digital signal processor to process the image to provide a digital mammogram image with enhanced representations of micro-calcifications.
+  authors: Hrushikesh Garud, Debdoot Sheet, Amit Suveer, Manjunatha Mahadevappa, Ajoy Kumar Ray
+  link:
+    url: https://patents.google.com/patent/US8634630B2/en
+    display: US Patent
+  highlight: false
