@@ -57,7 +57,7 @@ permalink: /publications/
     {% for pub in site.data.publist %}
         <li>
             <p style="font-size: 17px;">
-            "{{ pub.title }}" by {{ pub.authors }}, published at <i>{{ pub.link.display }}</i>
+            "{{ pub.title }}" by {{ pub.authors }}, published at <a href="{{ pub.link.url }}"><i>{{ pub.link.display }}</i></a>
             </p>
         </li>
     {% endfor %}
