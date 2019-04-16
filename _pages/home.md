@@ -14,6 +14,7 @@ Medical imaging and image computing research is now experiencing a symbiotic acc
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Items -->
@@ -24,6 +25,9 @@ Medical imaging and image computing research is now experiencing a symbiotic acc
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/kliv_leader.png" alt="Slide 2" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/new_group.png" alt="Slide 3" />
         </div>
     </div> 
 
