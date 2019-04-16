@@ -34,6 +34,16 @@
     - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
   type: member
 
+- name: Arunava Chakravarty
+  photo: ac.jpeg
+  info: Research Consultant
+  email: arunavachakravarty1206@gmail.com
+  description:
+    - PhD (to submit) in Computer Science from IIIT Hyderabad
+    - M.Tech in Computer Applications from Indian School of Mines, Dhanbad
+    - B.Tech in Computer Science and Engineering, WBUT
+  type: member
+
 - name: Ayan Das
   photo: ad.jpg
   info: M.S. student
