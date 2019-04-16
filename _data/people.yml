@@ -23,7 +23,7 @@
     - M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
     - BTech in Electrical Engineering from West Bengal University of Technology
     - <a href="https://aupendu.github.io/"> Personal Site </a>
-  type: member
+  type: alumni
 
 - name: Debarghya China
   photo: dc.jpg
@@ -53,13 +53,22 @@
     - <a href="https://dasayan05.github.io/"> Personal Site </a>
   type: member
 
+- name: M Srinivas
+  photo: sm.png
+  info: Research Scholar (Ph.D)
+  email: msrinivas@iitkgp.ac.in
+  description:
+    - M.Tech in Visual Information Processing and Embedded Systems from ECE Dept., IIT Kharagpur
+    - B.Tech in ECE from Andhra University.
+  type: member
+
 - name: Kaushik Das
   photo: kd.jpg
   info: PhD Student
   email: imkausikdas@gmail.com
   description:
     - MTech from IIT Kharagpur
-  type: member
+  type: alumni
 
 - name: This could be You !
   photo: phman.jpg
@@ -68,23 +77,3 @@
   description:
     - See the vacancy list
   type: member
-
-- name: Dr. PQR
-  photo: phwoman.png
-  info: Assistant Professor, started from 2031
-  email: mail@mail.com
-  description:
-    - Awesome educational qualification from PQR University
-    - Awesome educational qualification from PQR University
-    - Awesome educational qualification from PQR University
-  type: undergrad
-
-- name: Dr. PQR
-  photo: phwoman.png
-  info: Assistant Professor, started from 2031
-  email: mail@mail.com
-  description:
-    - Awesome educational qualification from PQR University
-    - Awesome educational qualification from PQR University
-    - Awesome educational qualification from PQR University
-  type: alumni
