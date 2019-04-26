@@ -1,10 +1,91 @@
+- title: "Significance of Residual Learning and Boundary Weighted Loss in Ischaemic Stroke Lesion Segmentation"
+  description: Radiologists use various imaging modalities to aid in different tasks like diagnosis of disease, lesion visualization, surgical planning and prognostic evaluation. Most of these tasks rely on the the accurate delineation of the anatomical morphology of the organ, lesion or tumor. Deep learning frameworks can be designed to facilitate automated delineation of the region of interest in such cases with high accuracy. Performance of such automated frameworks for medical image segmentation can be improved with efficient integration of information from multiple modalities aided by suitable learning strategies. In this direction, we show the effectiveness of residual network trained adversarially in addition to a boundary weighted loss. The proposed methodology is experimentally verified on the SPES-ISLES 2015 dataset for ischaemic stroke segmentation with an average Dice coefficient of 0.881 for penumbra and 0.877 for core. It was observed that addition of residual connections and boundary weighted loss improved the performance significantly.
+  authors: Ronnie Rajan, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://openreview.net/forum?id=SyeOMoR4q4
+    display:  MIDL 2019 Conference Abstract Submission
+  highlight: true
+  image: Ischaemic 2.jpg
+
+- title: "Adversarially Trained Neural Engine for High Density Compression of Digital Pathology Whole Slide Images"
+  description: Medical imaging has a great impact on diagnosis of diseases and preparation to surgery. Everyday, an enormous number of medical images are produced by hospitals and medical imaging centers for research, surgical and disease diagnostics. The storage and transmission of these images is a huge dilemma due to the substantial size of medical image data. Standard hand-crafted feature based natural image compression algorithms like JPEG are not widely accepted for pathological image compression since they tend to introduce pathologically confusing artifacts. The results of our experiment show that we can preserve better quality while compressing at the rate higher than standard JPEG algorithms as evaluated in peak signal-to-noise ratio (PSNR) and multi scale structural similarity (MS-SSIM) index. More importantly, our method does not suffer from any pathologically confusing artifacts.
+  authors: Pyush Pahuja, Debdoot Sheet
+  link:
+    url: https://openreview.net/forum?id=Bkgk3c0Nc4
+    display:  MIDL 2019 Conference Abstract Submission
+  highlight: true
+  image: neural.jpg
+
+- title: "Learning with Multitask Adversaries using Weakly Labelled Data for Semantic Segmentation in Retinal Images"
+  description: A prime challenge in building data driven inference models is the unavailability of statistically significant amount of labelled data. Since datasets are typically designed for a specific purpose, and accordingly are weakly labelled for only a single class instead of being exhaustively annotated. Despite there being multiple datasets which cumulatively represents a large corpus, their weak labelling poses challenge for direct use. As in case of retinal images which have inspired development of data driven learning based algorithms for segmenting anatomical landmarks like vessels and optic disc as well as pathologies like microaneurysms, hemorrhages, hard exudates and soft exudates; aspired to segment all using only a single fully convolutional neural network (FCN), there is no single dataset with all classes annotated. We solve this problem by training a single network using separate weakly labelled datasets. Essentially we use an adversarial learning approach over a semantic segmentation FCN, where the objectives of discriminators are to learn to (a) predict which of the classes are actually present in the input fundus image, and (b) distinguish between manual annotations vs. segmented results for each of the classes. The first discriminator works to enforce the network to segment those classes which are present in the fundus image although may not have been annotated ie all retinal images have vessels while pathology datasets may not have annotated them in the dataset. The second discriminator contributes to making the segmentation result as realistic as possible. We experimentally demonstrate using weakly labelled datasets of DRIVE …
+  authors: Oindrila Saha, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://openreview.net/forum?id=HJe6f0BexN
+    display:  International Conference on Medical Imaging with Deep Learning
+  highlight: true
+  image: retinal.jpg
+
+- title: "Fully Convolutional Neural Network for Semantic Segmentation of Anatomical Structure and Pathologies in Colour Fundus Images Associated with Diabetic Retinopathy"
+  description: Diabetic retinopathy (DR) is the most common form of diabetic eye disease. Retinopathy can affect all diabetic patients and becomes particularly dangerous, increasing the risk of blindness, if it is left untreated. The success rate of its curability solemnly depends on diagnosis at an early stage. The development of automated computer aided disease diagnosis tools could help in faster detection of symptoms with a wider reach and reasonable cost. This paper proposes a method for the automated segmentation of retinal lesions and optic disk in fundus images using a deep fully convolutional neural network for semantic segmentation. This trainable segmentation pipeline consists of an encoder network, a corresponding decoder network followed by pixel-wise classification to segment microaneurysms, hemorrhages, hard exudates, soft exudates, optic disk from background. The network was trained using Binary cross entropy criterion with Sigmoid as the last layer, while during an additional SoftMax layer was used for boosting response of single class. The performance of the proposed method is evaluated using sensitivity, positive prediction value (PPV) and accuracy as the metrices. Further, the position of the Optic disk is localised using the segmented output map.
+  authors: Oindrila Saha, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1902.03122
+    display:  arXiv preprint arXiv:1902.03122
+  highlight: true
+  image: dibetic.jpg
+
+- title: "SUMNet: Fully Convolutional Model for Fast Segmentation of Anatomical Structures in Ultrasound Volumes"
+  description: Ultrasound imaging is generally employed for real-time investigation of internal anatomy of the human body for disease identification. Delineation of the anatomical boundary of organs and pathological lesions is quite challenging due to the stochastic nature of speckle intensity in the images, which also introduces visual fatigue for the observer. This paper introduces a fully convolutional neural network based method to segment organ and pathologies in ultrasound volume by learning the spatial-relationship between closely related classes in the presence of stochastically varying speckle intensity. We propose a convolutional encoder-decoder like framework with (i) feature concatenation across matched layers in encoder and decoder and (ii) index passing based unpooling at the decoder for semantic segmentation of ultrasound volumes. We have experimentally evaluated the performance on publicly available datasets consisting of 10 intravascular ultrasound pullback acquired at 20MHz and 16freehand thyroid ultrasound volumes acquired 11-16 MHz. We have obtained a dice score of0.93±0.08 and 0.92±0.06 respectively, following a 10 -fold cross-validation experiment while processing frame of 256x384 pixel in 0.035 s and a volume of 256x384x384 voxel in 13.44 s.
+  authors: Sumanth Nandamuri, Debarghya China, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1901.06920
+    display: arXiv preprint arXiv:1901.06920
+  highlight: true
+  image: sumnet.jpg
+
+- title: "Learning a Deep Convolution Network with Turing Test Adversaries for Microscopy Image Super Resolution"
+  description: Adversarially trained deep neural networks have significantly improved performance of single image super resolution, by hallucinating photorealistic local textures, thereby greatly reducing the perception difference between a real high resolution image and its super resolved (SR) counterpart. However, application to medical imaging requires preservation of diagnostically relevant features while refraining from introducing any diagnostically confusing artifacts. We propose using a deep convolutional super resolution network (SRNet) trained for (i) minimising reconstruction loss between the real and SR images, and (ii) maximally confusing learned relativistic visual Turing test (rVTT) networks to discriminate between (a) pair of real and SR images (T1) and (b) pair of patches in real and SR selected from region of interest (T2). The adversarial loss of T1 and T2 while backpropagated through SRNet helps it learn to reconstruct pathorealism in the regions of interest such as white blood cells (WBC) in peripheral blood smears or epithelial cells in histopathology of cancerous biopsy tissues, which are experimentally demonstrated here. Experiments performed for measuring signal distortion loss using peak signal to noise ratio (pSNR) and structural similarity (SSIM) with variation of SR scale factors, impact of rVTT adversarial losses, and impact on reporting using SR on a commercially available artificial intelligence (AI) digital pathology system substantiate our claims.
+  authors: Francis Tom, Himanshu Sharma, Dheeraj Mundhra, Tathagato Rai Dastidar, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1901.06405
+    display: arXiv preprint arXiv:1901.06405
+  highlight: true
+  image: turing.jpg
+
+- title: "UltraCompression: Framework for High Density Compression of Ultrasound Volumes using Physics Modeling Deep Neural Networks"
+  description: Ultrasound image compression by preserving speckle-based key information is a challenging task. In this paper, we introduce an ultrasound image compression framework with the ability to retain realism of speckle appearance despite achieving very high-density compression factors. The compressor employs a tissue segmentation method, transmitting segments along with transducer frequency, number of samples and image size as essential information required for decompression. The decompressor is based on a convolutional network trained to generate patho-realistic ultrasound images which convey essential information pertinent to tissue pathology visible in the images. We demonstrate generalizability of the building blocks using two variants to build the compressor. We have evaluated the quality of decompressed images using distortion losses as well as perception loss and compared it with other off the shelf solutions. The proposed method achieves a compression ratio of725:1 while preserving the statistical distribution of speckles. This enables image segmentation on decompressed images to achieve dice score of 0.89±0.11 , which evidently is not so accurately achievable when images are compressed with current standards like JPEG, JPEG 2000, WebP and BPG. We envision this frame work to serve as a roadmap for speckle image compression standards.
+  authors: Debarghya China, Francis Tom, Sumanth Nandamuri, Aupendu Kar, Mukundhan Srinivasan, Pabitra Mitra, Debdoot Sheet
+  link:
+    url: https://arxiv.org/abs/1901.05880
+    display: arXiv preprint arXiv:1901.05880
+  highlight: true
+  image: ultracompression.jpg
+
+- title: "Phase Identification and Workflow Modeling in Laparoscopy Surgeries Using Temporal Connectionism of Deep Visual Residual Abstractions"
+  description: The phase recognition task has been performed on different types of surgeries which ranges from cataract to neurological to laparoscopic intervention. The visual features of a surgical video can be used to identify the surgical phases in laparoscopic interventions. Owing to the significant improvement in performance exhibited by convolutional neural networks (CNN) on various challenging tasks like image classification, action recognition etc., they are widely used as feature extractors. In the proposed framework, features extracted by a CNN are used for phase recognition. The task of phase recognition in surgical videos is rendered challenging because of the presence of motion blur produced to the mobile nature of the recording device and the high variance in scenes observed during the course of the surgery. Also, blood stains on the camera lens and complete or partial occlusion of the scene captured by …
+  authors: Kaustuv Mishra, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-11479-4_10
+    display: Springer, Cham
+  highlight: true
+  image: phase.jpg
+
+- title: "Deep Neural Architecture for Localization and Tracking of Surgical Tools in Cataract Surgery"
+  description: Over the last couple of decades, the quality of surgical interventions has improved owing to the use of computer vision and robotic assistance. One such application of computer vision, namely, detection of surgical tools in videos is gaining attention of the medical image processing community. The main motivation for detection, localization, and annotation of surgical tools is to develop applications for surgical wsorkflow analysis. Such an analysis can aid in report generation, real-time decision support, etc. Cataract surgery is one of the common surgical procedure where surgeons do have direct visual access to the surgical site. Extremely small tools are used for this procedure and the surgeons observe the surgical site through a surgical microscope. In such cases, detecting the presence of tools can act an additional aid to the surgeon as well as other surgical staffs. We propose a framework consisting of a …
+  authors: Neha Banerjee, Rachana Sathish, Debdoot Sheet
+  link:
+    url: https://link.springer.com/chapter/10.1007/978-3-030-04061-1_4
+    display: Springer, Cham
+  highlight: true
+  image: cataract.jpg
+
 - title: "ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks"
   description: Optical coherence tomography (OCT) is used for non-invasive diagnosis of diabetic macular edema assessing the retinal layers. In this paper, we propose a new fully convolutional deep architecture, termed ReLayNet, for end-to-end segmentation of retinal layers and fluid masses in eye OCT scans. ReLayNet uses a contracting path of convolutional blocks (encoders) to learn a hierarchy of contextual features, followed by an expansive path of convolutional blocks (decoders) for semantic segmentation. ReLayNet is trained to optimize a joint loss function comprising of weighted logistic regression and Dice overlap loss. The framework is validated on a publicly available benchmark dataset with comparisons against five state-of-the-art segmentation methods including two deep learning based approaches to substantiate its effectiveness.
   authors: Abhijit Guha Roy, Sailesh Conjeti, Sri Phani Krishna Karri, Debdoot Sheet, Amin Katouzian, Christian Wachinger, Nassir Navab
   link:
     url: https://www.osapublishing.org/boe/abstract.cfm?uri=boe-8-8-3627
     display:  Biomedical optics express
-  highlight: true
+  highlight: false
 
 - title: "Ensemble of deep convolutional neural networks for learning to detect retinal vessels in fundus images"
   description: OVision impairment due to pathological damage of the retina can largely be prevented through periodic screening using fundus color imaging. However the challenge with large scale screening is the inability to exhaustively detect fine blood vessels crucial to disease diagnosis. In this work we present a computational imaging framework using deep and ensemble learning for reliable detection of blood vessels in fundus color images. An ensemble of deep convolutional neural networks is trained to segment vessel and non-vessel areas of a color fundus image. During inference, the responses of the individual ConvNets of the ensemble are averaged to form the final segmentation. In experimental evaluation with the DRIVE database, we achieve the objective of vessel detection with maximum average accuracy of 94.7\% and area under ROC curve of 0.9283.
@@ -12,7 +93,7 @@
   link:
     url: https://arxiv.org/abs/1603.04833
     display: arXiv preprint arXiv:1603.04833
-  highlight: true
+  highlight: false
 
 - title: "Iterative self-organizing atherosclerotic tissue labeling in intravascular ultrasound images and comparison with virtual histology"
   description: Intravascular ultrasound (IVUS) is the predominant imaging modality in the field of interventional cardiology that provides real-time crosssectional images of coronary arteries and the extent of atherosclerosis. Due to heterogeneity of lesions and stringent spatial/spectral behavior of tissues, atherosclerotic plaque characterization has always been a challenge and still is an open problem. In this paper, we present a systematic framework from in vitro data collection, histology preparation, IVUS-histology registration along with matching procedure, and finally a robust texture-derived unsupervised atherosclerotic plaque labeling. We have performed our algorithm on in vitro and in vivo images acquired with single-element
@@ -20,7 +101,7 @@
   link:
     url: https://ieeexplore.ieee.org/iel5/10/4359967/06269061.pdf
     display: IEEE Transactions on Biomedical Engineering
-  highlight: true
+  highlight: false
 
 - title: "Deep neural network and random forest hybrid architecture for learning to detect retinal vessels in fundus images"
   description: Vision impairment due to pathological damage of the retina can largely be prevented through periodic screening using fundus color imaging. However the challenge with large-scale screening is the inability to exhaustively detect fine blood vessels crucial to disease diagnosis. In this work we present a computational imaging framework using deep and ensemble learning based hybrid architecture for reliable detection of blood vessels in fundus color images. A deep neural network (DNN) is used for unsupervised learning of vesselness dictionaries using sparse trained denoising auto-encoders (DAE), followed by supervised learning of the DNN response using a random forest for detecting vessels in color fundus images. In experimental evaluation with the DRIVE database, we achieve the objective of vessel detection with max. avg. accuracy of 0.9327 and area under ROC curve of 0.9195.
@@ -28,7 +109,7 @@
   link:
     url: https://ieeexplore.ieee.org/abstract/document/7319030/
     display: 2015 37th annual international conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
-  highlight: true
+  highlight: false
 
 - title: "Error corrective boosting for learning fully convolutional networks with limited data"
   description: Training deep fully convolutional neural networks (F-CNNs) for semantic image segmentation requires access to abundant labeled data. While large datasets of unlabeled image data are available in medical applications, access to manually labeled data is very limited. We propose to automatically create auxiliary labels on initially unlabeled data with existing tools and to use them for pre-training. For the subsequent fine-tuning of the network with manually labeled data, we introduce error corrective boosting (ECB), which emphasizes parameter updates on classes with lower accuracy. Furthermore, we introduce SkipDeconv-Net (SD-Net), a new F-CNN architecture for brain segmentation that combines skip connections with the unpooling strategy for upsampling. The SD-Net addresses challenges of severe class imbalance and errors along boundaries. With application to whole-brain MRI T1 scan …
@@ -36,7 +117,7 @@
   link:
     url: https://link.springer.com/chapter/10.1007/978-3-319-66179-7_27
     display: International Conference on Medical Image Computing and Computer-Assisted Intervention
-  highlight: true
+  highlight: false
   
 - title: "Simulating Patho-realistic Ultrasound Images using Deep Generative Networks with Adversarial Learning"
   description: Ultrasound imaging makes use of backscattering of waves during their interaction with scatterers present in biological tissues. Simulation of synthetic ultrasound images is a challenging problem on account of inability to accurately model various factors of which some include intra-/inter scanline interference, transducer to surface coupling, artifacts on transducer elements, inhomogeneous shadowing and nonlinear attenuation. Current approaches typically solve wave space equations making them computationally expensive and slow to operate. We propose a generative adversarial network (GAN) inspired approach for fast simulation of patho-realistic ultrasound images. We apply the framework to intravascular ultrasound (IVUS) simulation. A stage 0 simulation performed using pseudo B-mode ultrasound image simulator yields speckle mapping of a digitally defined phantom. The stage I GAN subsequently refines …
@@ -44,7 +125,7 @@
   link:
     url: https://ieeexplore.ieee.org/abstract/document/8363780/
     display:  Biomedical Imaging (ISBI 2018), 2018 IEEE 15th International Symposium on
-  highlight: true
+  highlight: false
   
 - title: "Deep neural ensemble for retinal vessel segmentation in fundus images towards achieving label-free angiography"
   description: Automated segmentation of retinal blood vessels in label-free fundus images entails a pivotal role in computed aided diagnosis of ophthalmic pathologies, viz., diabetic retinopathy, hypertensive disorders and cardiovascular diseases. The challenge remains active in medical image analysis research due to varied distribution of blood vessels, which manifest variations in their dimensions of physical appearance against a noisy background. In this paper we formulate the segmentation challenge as a classification task. Specifically, we employ unsupervised hierarchical feature learning using ensemble of two level of sparsely trained denoised stacked autoencoder. First level training with bootstrap samples ensures decoupling and second level ensemble formed by different network architectures ensures architectural revision. We show that ensemble training of auto-encoders fosters diversity in learning dictionary of …
@@ -189,6 +270,7 @@
     url: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w50/Kar_Fully_Convolutional_Model_CVPR_2018_paper.pdf
     display: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
   highlight: true
+  image: Mammograms.jpg
 
 - title: "Multiple instance learning of deep convolutional neural networks for breast histopathology whole slide classification"
   description: Whole slide histopathology images are the digitised version of physical slides that are acquired by stitching multiple overlapping image patches acquired at different optical magnifications. Typically sized at 2 GB per slide, computer aided analysis for whole slide pathology classification is a challenging task. Since local image patches generally provide more discriminative information as compared to the whole slide, challenges are associated with handling pathological heteregeneity varying across the whole slide. Given this challenge to classify the slide pathology using local image patches, in this paper we propose a multiple instance learning (MIL) framework for convolutional neural network (CNN). We introduce a new pooling layer that helps to aggregate most informative features from patches constituting a whole slide, without necessitating inter-patch overlap or global slide coverage. This helps our method to …
@@ -245,14 +327,6 @@
     url: https://ieeexplore.ieee.org/abstract/document/6864478/
     display: IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
   highlight: false
-  
-- title: "UltraCompression: Framework for High Density Compression of Ultrasound Volumes using Physics Modeling Deep Neural Networks"
-  description: Ultrasound image compression by preserving speckle-based key information is a challenging task. In this paper, we introduce an ultrasound image compression framework with the ability to retain realism of speckle appearance despite achieving very high-density compression factors. The compressor employs a tissue segmentation method, transmitting segments along with transducer frequency, number of samples and image size as essential information required for decompression. The decompressor is based on a convolutional network trained to generate patho-realistic ultrasound images which convey essential information pertinent to tissue pathology visible in the images. We demonstrate generalizability of the building blocks using two variants to build the compressor. We have evaluated the quality of decompressed images using distortion losses as well as perception loss and compared it with other off the shelf solutions. The proposed method achieves a compression ratio of  while preserving the statistical distribution of speckles. This enables image segmentation on decompressed images to achieve dice score of , which evidently is not so accurately achievable when images are compressed with current standards like JPEG, JPEG 2000, WebP and BPG. We envision this frame work to serve as a roadmap for speckle image compression standards.
-  authors: Debarghya China, Francis Tom, Sumanth Nandamuri, Aupendu Kar, Mukundhan Srinivasan, Pabitra Mitra, Debdoot Sheet
-  link:
-    url: https://arxiv.org/abs/1901.05880
-    display: arXiv preprint arXiv:1901.05880
-  highlight: true
   
 - title: "Evaluation of Commonly Used Algorithms for Thyroid Ultrasound Images Segmentation and Improvement Using Machine Learning Approaches"
   description: The thyroid is one of the largest endocrine glands in the human body, which is involved in several body mechanisms like controlling protein synthesis and the body's sensitivity to other hormones and use of energy sources. Hence, it is of prime importance to track the shape and size of thyroid over time in order to evaluate its state. Thyroid segmentation and volume computation are important tools that can be used for thyroid state tracking assessment. Most of the proposed approaches are not automatic and require long time to correctly segment the thyroid. In this work, we compare three different nonautomatic segmentation algorithms (i.e., active contours without edges, graph cut, and pixel-based classifier) in freehand three-dimensional ultrasound imaging in terms of accuracy, robustness, ease of use, level of human interaction required, and computation time. We figured out that these methods lack automation and machine intelligence and are not highly accurate. Hence, we implemented two machine learning approaches (i.e., random forest and convolutional neural network) to improve the accuracy of segmentation as well as provide automation. This comparative study intends to discuss and analyse the advantages and disadvantages of different algorithms. In the last step, the volume of the thyroid is computed using the segmentation results, and the performance analysis of all the algorithms is carried out by comparing the segmentation results with the ground truth.
@@ -325,46 +399,6 @@
     url: https://ieeexplore.ieee.org/abstract/document/7163875/
     display: 2015 IEEE 12th International Symposium on Biomedical Imaging (ISBI)
   highlight: false 
-  
-- title: "Fully Convolutional Neural Network for Semantic Segmentation of Anatomical Structure and Pathologies in Colour Fundus Images Associated with Diabetic Retinopathy"
-  description: Diabetic retinopathy (DR) is the most common form of diabetic eye disease. Retinopathy can affect all diabetic patients and becomes particularly dangerous, increasing the risk of blindness, if it is left untreated. The success rate of its curability solemnly depends on diagnosis at an early stage. The development of automated computer aided disease diagnosis tools could help in faster detection of symptoms with a wider reach and reasonable cost. This paper proposes a method for the automated segmentation of retinal lesions and optic disk in fundus images using a deep fully convolutional neural network for semantic segmentation. This trainable segmentation pipeline consists of an encoder network, a corresponding decoder network followed by pixel-wise classification to segment microaneurysms, hemorrhages, hard exudates, soft exudates, optic disk from background. The network was trained using Binary cross entropy criterion with Sigmoid as the last layer, while during an additional SoftMax layer was used for boosting response of single class. The performance of the proposed method is evaluated using sensitivity, positive prediction value (PPV) and accuracy as the metrices. Further, the position of the Optic disk is localised using the segmented output map.
-  authors: Oindrila Saha, Rachana Sathish, Debdoot Sheet
-  link:
-    url: https://arxiv.org/abs/1902.03122
-    display: arXiv preprint arXiv:1902.03122
-  highlight: false 
-  
-- title: "SUMNet: Fully Convolutional Model for Fast Segmentation of Anatomical Structures in Ultrasound Volumes"
-  description: Ultrasound imaging is generally employed for real-time investigation of internal anatomy of the human body for disease identification. Delineation of the anatomical boundary of organs and pathological lesions is quite challenging due to the stochastic nature of speckle intensity in the images, which also introduces visual fatigue for the observer. This paper introduces a fully convolutional neural network based method to segment organ and pathologies in ultrasound volume by learning the spatial-relationship between closely related classes in the presence of stochastically varying speckle intensity. We propose a convolutional encoder-decoder like framework with (i) feature concatenation across matched layers in encoder and decoder and (ii) index passing based unpooling at the decoder for semantic segmentation of ultrasound volumes. We have experimentally evaluated the performance on publicly available datasets consisting of  intravascular ultrasound pullback acquired at  MHz and  freehand thyroid ultrasound volumes acquired  MHz. We have obtained a dice score of  and respectively, following a -fold cross-validation experiment while processing frame of  pixel in  s and a volume of  voxel in  s.
-  authors: Sumanth Nandamuri, Debarghya China, Pabitra Mitra, Debdoot Sheet
-  link:
-    url: https://arxiv.org/abs/1901.06920
-    display: arXiv preprint arXiv:1901.06920
-  highlight: true 
-  
-- title: "Learning a Deep Convolution Network with Turing Test Adversaries for Microscopy Image Super Resolution"
-  description: Adversarially trained deep neural networks have significantly improved performance of single image super resolution, by hallucinating photorealistic local textures, thereby greatly reducing the perception difference between a real high resolution image and its super resolved (SR) counterpart. However, application to medical imaging requires preservation of diagnostically relevant features while refraining from introducing any diagnostically confusing artifacts. We propose using a deep convolutional super resolution network (SRNet) trained for (i) minimising reconstruction loss between the real and SR images, and (ii) maximally confusing learned relativistic visual Turing test (rVTT) networks to discriminate between (a) pair of real and SR images (T1) and (b) pair of patches in real and SR selected from region of interest (T2). The adversarial loss of T1 and T2 while backpropagated through SRNet helps it learn to reconstruct pathorealism in the regions of interest such as white blood cells (WBC) in peripheral blood smears or epithelial cells in histopathology of cancerous biopsy tissues, which are experimentally demonstrated here. Experiments performed for measuring signal distortion loss using peak signal to noise ratio (pSNR) and structural similarity (SSIM) with variation of SR scale factors, impact of rVTT adversarial losses, and impact on reporting using SR on a commercially available artificial intelligence (AI) digital pathology system substantiate our claims.
-  authors: Francis Tom, Himanshu Sharma, Dheeraj Mundhra, Tathagato Rai Dastidar, Debdoot Sheet
-  link:
-    url: https://arxiv.org/abs/1901.06405
-    display: arXiv preprint arXiv:1901.06405
-  highlight: false
-
-- title: "Phase Identification and Workflow Modeling in Laparoscopy Surgeries Using Temporal Connectionism of Deep Visual Residual Abstractions"
-  description: The phase recognition task has been performed on different types of surgeries which ranges from cataract to neurological to laparoscopic intervention. The visual features of a surgical video can be used to identify the surgical phases in laparoscopic interventions. Owing to the significant improvement in performance exhibited by convolutional neural networks (CNN) on various challenging tasks like image classification, action recognition etc., they are widely used as feature extractors. In the proposed framework, features extracted by a CNN are used for phase recognition. The task of phase recognition in surgical videos is rendered challenging because of the presence of motion blur produced to the mobile nature of the recording device and the high variance in scenes observed during the course of the surgery. Also, blood stains on the camera lens and complete or partial occlusion of the scene captured by …
-  authors: Kaustuv Mishra, Rachana Sathish, Debdoot Sheet
-  link:
-    url: https://link.springer.com/chapter/10.1007/978-3-030-11479-4_10
-    display: Springer, Cham
-  highlight: false 
-  
-- title: "Deep Neural Architecture for Localization and Tracking of Surgical Tools in Cataract Surgery"
-  description: Over the last couple of decades, the quality of surgical interventions has improved owing to the use of computer vision and robotic assistance. One such application of computer vision, namely, detection of surgical tools in videos is gaining attention of the medical image processing community. The main motivation for detection, localization, and annotation of surgical tools is to develop applications for surgical wsorkflow analysis. Such an analysis can aid in report generation, real-time decision support, etc. Cataract surgery is one of the common surgical procedure where surgeons do have direct visual access to the surgical site. Extremely small tools are used for this procedure and the surgeons observe the surgical site through a surgical microscope. In such cases, detecting the presence of tools can act an additional aid to the surgeon as well as other surgical staffs. We propose a framework consisting of a …
-  authors: Neha Banerjee, Rachana Sathish, Debdoot Sheet
-  link:
-    url: https://link.springer.com/chapter/10.1007/978-3-030-04061-1_4
-    display: Springer, Cham
-  highlight: false
   
 - title: "A Deep Convolutional Neural Network Based Classification Of Multi-Class Motor Imagery With Improved Generalization"
   description: Motor imagery (MI) based brain-computer interface (BCI) plays a crucial role in various scenarios ranging from post-traumatic rehabilitation to control prosthetics. Computer-aided interpretation of MI has augmented prior mentioned scenarios since decades but failed to address interpersonal variability. Such variability further escalates in case of multi-class MI, which is currently a common practice. The failures due to interpersonal variability can be attributed to handcrafted features as they failed to extract more generalized features. The proposed approach employs convolution neural network (CNN) based model with both filtering (through axis shuffling) and feature extraction to avail end-to-end training. Axis shuffling is performed adopted in initial blocks of the model for 1D preprocessing and reduce the parameters required. Such practice has avoided the overfitting which resulted in an improved generalized model …

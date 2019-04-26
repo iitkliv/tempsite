@@ -53,14 +53,14 @@ permalink: /publications/
 ## Full list of publications
 (You may also visit the [Google Scholar](https://scholar.google.com/citations?user=x-0vLSsAAAAJ&hl=en) page)
 
-<ul>
+<ol>
     {% for pub in site.data.publist %}
         <li>
             <p style="font-size: 17px;">
-            "{{ pub.title }}" by {{ pub.authors }}, published at <a href="{{ pub.link.url }}"><i>{{ pub.link.display }}</i></a>
+            {{ pub.authors }}, "<i>{{ pub.title }}</i>", <a href="{{ pub.link.url }}" target="_blank"><i>{{ pub.link.display }}</i></a>
             </p>
         </li>
     {% endfor %}
-</ul>
+</ol>
 
 <p> &nbsp; </p>
