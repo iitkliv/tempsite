@@ -4,7 +4,7 @@
   link:
     url: https://openreview.net/forum?id=SyeOMoR4q4
     display:  MIDL 2019 Conference Abstract Submission
-  highlight: true
+  highlight: false
   image: Ischaemic 2.jpg
 
 - title: "Adversarially Trained Neural Engine for High Density Compression of Digital Pathology Whole Slide Images"
@@ -13,7 +13,7 @@
   link:
     url: https://openreview.net/forum?id=Bkgk3c0Nc4
     display:  MIDL 2019 Conference Abstract Submission
-  highlight: true
+  highlight: false
   image: neural.jpg
 
 - title: "Learning with Multitask Adversaries using Weakly Labelled Data for Semantic Segmentation in Retinal Images"
