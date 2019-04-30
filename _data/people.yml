@@ -1,38 +1,11 @@
 - name: Dr. Debdoot Sheet
   photo: ds.jpg
-  info: Head & Principle Investigator (PI) of KLIV Group
+  info: Head & Principal Investigator (PI) of KLIV Group
   email: debdoot@ee.iitkgp.ac.in
   description:
     - Assistant Professor, Department of Electrical Engineering, IIT Kharagpur
     - Founder and Managing Director, SkinCurate Research Pvt. Ltd.
   type: head
-
-- name: Rachana Sathish
-  photo: rs.jpg
-  info: PhD student
-  email: rachana.sathish@iitkgp.ac.in
-  description:
-    - M.Tech, IIT Kharagpur
-  type: member
-
-- name: Aupendu Kar
-  photo: ak.png
-  info: PhD student
-  email: aupendukar@iitkgp.ac.in
-  description:
-    - M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
-    - BTech in Electrical Engineering from West Bengal University of Technology
-    - <a href="https://aupendu.github.io/"> Personal Site </a>
-  type: alumni
-
-- name: Debarghya China
-  photo: dc.jpg
-  info: PhD student
-  email: debarghyachina@gmail.com
-  description:
-    - MTech in Mechatronics Engineering from NITTTR Kolkata
-    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
-  type: member
 
 - name: Arunava Chakravarty
   photo: ac.jpeg
@@ -44,12 +17,30 @@
     - B.Tech in Computer Science and Engineering, WBUT
   type: member
 
+- name: Kausik Basak
+  photo: kb.jpg
+  info: Postdoctoral Research Consultant
+  email: kausikbasak16@gmail.com
+  description:
+    - Postdoc research experience in photoacoustic imaging from TU Munich
+    - PhD in Laser speckle imaging and its biomedical applications from IIT Kharagpur
+    - M.Tech in Medical imaging and image analysis from IIT Kharagpur
+  type: member
+
+- name: Rachana Sathish
+  photo: rs.jpg
+  info: PhD Candidate
+  email: rachana.sathish@iitkgp.ac.in
+  description:
+    - M.Tech, IIT Kharagpur
+  type: member
+
 - name: Ayan Das
   photo: ad.jpg
   info: M.S. student
   email: ayan.das@ee.iitkgp.ac.in
   description:
-    - BTech in Electronics Engg. from ECE Dept., IEM Kolkata
+    - BTech in Electronics and Communication Engineering from ECE Dept., IEM Kolkata
     - <a href="https://dasayan05.github.io/"> Personal Site </a>
   type: member
 
@@ -62,14 +53,6 @@
     - B.Tech in ECE from Andhra University.
   type: member
 
-- name: Kaushik Das
-  photo: kd.jpg
-  info: PhD Student
-  email: imkausikdas@gmail.com
-  description:
-    - MTech from IIT Kharagpur
-  type: alumni
-
 - name: This could be You !
   photo: phman.jpg
   info: Be a part of the team ..
@@ -77,3 +60,156 @@
   description:
     - See the vacancy list
   type: member
+
+- name: Kaushik Das
+  photo: kd.jpg
+  info: PhD Candidate
+  email: imkausikdas@gmail.com
+  description:
+    - MTech from IIT Kharagpur
+  type: alumni
+
+- name: Debarghya China
+  photo: dc.jpg
+  info: PhD Candidate
+  email: debarghyachina@gmail.com
+  description:
+    - MTech in Mechatronics Engineering from NITTTR Kolkata
+    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
+  type: alumni
+
+- name: Aupendu Kar
+  photo: ak.png
+  info: PhD Candidate
+  email: aupendukar@iitkgp.ac.in
+  description:
+    - M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
+    - BTech in Electrical Engineering from West Bengal University of Technology
+    - <a href="https://aupendu.github.io/"> Personal Site </a>
+  type: alumni
+
+- name: Abhijit Guha Roy
+  photo: agr.jpg
+  info: PhD Research Scholar
+  email: abhijit.guha-roy@tum.de
+  description:
+    
+  type: alumni
+
+- name: Niladri Garai
+  photo: niladri.jpg
+  info: PhD Candidate
+  email: niladrigarai@smst.iitkgp.ernet.in
+  description:
+    
+  type: alumni
+
+- name: Ram Nagar
+  photo: ramnagar.jpg
+  info: 
+  email: 
+  url: 
+  description:
+    
+  type: alumni
+
+- name: Akshit Mantri
+  photo: akshit.jpg
+  info: 
+  email: 
+  url: https://in.linkedin.com/in/akshit-mantri-327a5b101
+  description:
+    
+  type: alumni
+
+- name: Srichandra Chi-lappagari
+  photo: srichanda.jpg
+  info: 
+  email: 
+  url: https://in.linkedin.com/in/srichandra-chilappagari
+  description:
+    
+  type: alumni
+
+- name: Abhinav Agarwal
+  photo: avinav.jpg
+  info: 
+  email: 
+  url:
+  description:
+    
+  type: alumni
+
+- name: Shaswat Datta
+  photo: saswat.jpg
+  info: 
+  email: 
+  url:
+  description:
+    
+  type: alumni
+
+- name: Abhishek Pal
+  photo: avishek.jpg
+  info: 
+  email: 
+  url:
+  description:
+    
+  type: alumni
+
+- name: Shubh Agrawal
+  photo: shubh.jpg
+  info: 
+  email: 
+  url:
+  description:
+    
+  type: alumni
+
+- name: Neha Banerjee
+  photo: neha.jpg
+  info: 
+  email: 
+  url:
+  description:
+    
+  type: alumni
+
+- name: Nikhil Naik
+  photo: nikhil.jpg
+  info: 
+  email: 
+  url: https://www.linkedin.com/in/nikhilvnaik
+  description:
+    
+  type: alumni
+
+- name: Himanshu Chaudhary
+  photo: hs.jpg
+  info: 
+  email: 
+  url: https://in.linkedin.com/in/himanshu-chaudhary-688097b7
+  description:
+    
+  type: alumni
+
+- name: Prashant Yadav
+  photo: py.jpg
+  info: 
+  email: 
+  url: https://www.linkedin.com/in/prashant-yadav-63b465a0
+  description:
+    
+  type: alumni
+
+- name: Inderpreet Kaur
+  photo: ik.jpg
+  info: 
+  email: 
+  url: https://in.linkedin.com/in/inderpreet15
+  description:
+    
+  type: alumni
+
+
