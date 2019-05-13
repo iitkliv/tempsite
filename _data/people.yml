@@ -1,6 +1,6 @@
 - name: Dr. Debdoot Sheet
   photo: ds.jpg
-  info: Head & Principal Investigator (PI) of KLIV Group
+  info: Principal Investigator (PI) of KLIV Group
   email: debdoot@ee.iitkgp.ac.in
   description:
     - Assistant Professor, Department of Electrical Engineering, IIT Kharagpur
@@ -27,12 +27,38 @@
     - M.Tech in Medical imaging and image analysis from IIT Kharagpur
   type: member
 
+- name: Debarghya China
+  photo: dc.jpg
+  info: PhD Candidate
+  email: debarghyachina@gmail.com
+  description:
+    - MTech in Mechatronics Engineering from NITTTR Kolkata
+    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
+  type: member
+
+- name: Kaushik Das
+  photo: kd.jpg
+  info: PhD Candidate
+  email: imkausikdas@gmail.com
+  description:
+    - MTech from IIT Kharagpur
+  type: member
+
 - name: Rachana Sathish
   photo: rs.jpg
   info: PhD Candidate
   email: rachana.sathish@iitkgp.ac.in
   description:
     - M.Tech, IIT Kharagpur
+  type: member
+
+- name: Srinivas Maddimsetti
+  photo: sm.png
+  info: Research Scholar (Ph.D)
+  email: msrinivas@iitkgp.ac.in
+  description:
+    - M.Tech in Visual Information Processing and Embedded Systems from ECE Dept., IIT Kharagpur
+    - B.Tech in ECE from Andhra University.
   type: member
 
 - name: Ayan Das
@@ -44,14 +70,6 @@
     - <a href="https://dasayan05.github.io/"> Personal Site </a>
   type: member
 
-- name: M Srinivas
-  photo: sm.png
-  info: Research Scholar (Ph.D)
-  email: msrinivas@iitkgp.ac.in
-  description:
-    - M.Tech in Visual Information Processing and Embedded Systems from ECE Dept., IIT Kharagpur
-    - B.Tech in ECE from Andhra University.
-  type: member
 
 - name: This could be You !
   photo: phman.jpg
@@ -60,23 +78,6 @@
   description:
     - See the vacancy list
   type: member
-
-- name: Kaushik Das
-  photo: kd.jpg
-  info: PhD Candidate
-  email: imkausikdas@gmail.com
-  description:
-    - MTech from IIT Kharagpur
-  type: alumni
-
-- name: Debarghya China
-  photo: dc.jpg
-  info: PhD Candidate
-  email: debarghyachina@gmail.com
-  description:
-    - MTech in Mechatronics Engineering from NITTTR Kolkata
-    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
-  type: alumni
 
 - name: Aupendu Kar
   photo: ak.png
@@ -93,7 +94,7 @@
   info: PhD Research Scholar
   email: abhijit.guha-roy@tum.de
   description:
-    
+    -
   type: alumni
 
 - name: Niladri Garai
@@ -101,21 +102,21 @@
   info: PhD Candidate
   email: niladrigarai@smst.iitkgp.ernet.in
   description:
-    
+    - 
   type: alumni
 
 - name: Ram Nagar
   photo: ramnagar.jpg
-  info: 
+  info: B.Tech Student
   email: 
   url: 
   description:
-    
+    -
   type: alumni
 
 - name: Akshit Mantri
   photo: akshit.jpg
-  info: 
+  info: B.Tech in Electrical Engineering and M.Tech in Instrumentation and Signal Processing Field Of Study Minor in Computer Science and Engineering 
   email: 
   url: https://in.linkedin.com/in/akshit-mantri-327a5b101
   description:
@@ -124,7 +125,7 @@
 
 - name: Srichandra Chi-lappagari
   photo: srichanda.jpg
-  info: 
+  info: Bachelor of Technology (BTech) and Master of Technology(MTech) Field Of Study Electronics and Electrical Communication Engineering 
   email: 
   url: https://in.linkedin.com/in/srichandra-chilappagari
   description:
@@ -133,18 +134,9 @@
 
 - name: Abhinav Agarwal
   photo: avinav.jpg
-  info: 
+  info: B.Tech Major Field Of Study Electrical Engineering & B.Tech Minor Field Of Study Computer Science and Engineering 
   email: 
-  url:
-  description:
-    
-  type: alumni
-
-- name: Shaswat Datta
-  photo: saswat.jpg
-  info: 
-  email: 
-  url:
+  url: linkedin.com/in/abhinav-aggarwal-ab7331119
   description:
     
   type: alumni
@@ -153,32 +145,32 @@
   photo: avishek.jpg
   info: 
   email: 
-  url:
+  url: https://in.linkedin.com/in/abhishek-pal-22672142
   description:
     
   type: alumni
 
 - name: Shubh Agrawal
   photo: shubh.jpg
-  info: 
+  info: Research Assistant
   email: 
-  url:
+  url: https://www.linkedin.com/in/shubh-agrawal111/?trk=public-profile-join-page
   description:
     
   type: alumni
 
 - name: Neha Banerjee
   photo: neha.jpg
-  info: 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: 
-  url:
+  url: https://in.linkedin.com/in/nehabanerjeeiit
   description:
     
   type: alumni
 
 - name: Nikhil Naik
   photo: nikhil.jpg
-  info: 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Instrumentation Engineering 
   email: 
   url: https://www.linkedin.com/in/nikhilvnaik
   description:
@@ -187,7 +179,7 @@
 
 - name: Himanshu Chaudhary
   photo: hs.jpg
-  info: 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Instrumentation Engineering 
   email: 
   url: https://in.linkedin.com/in/himanshu-chaudhary-688097b7
   description:
@@ -196,7 +188,7 @@
 
 - name: Prashant Yadav
   photo: py.jpg
-  info: 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: 
   url: https://www.linkedin.com/in/prashant-yadav-63b465a0
   description:
@@ -205,11 +197,56 @@
 
 - name: Inderpreet Kaur
   photo: ik.jpg
-  info: 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Instrumentation Engineering 
   email: 
   url: https://in.linkedin.com/in/inderpreet15
   description:
     
   type: alumni
+
+- name: Sumanth Nandamuri
+  photo: sumanth.jpg
+  info: Dual Degree 
+  email:  sumanthnandamuri99@gmail.com 
+  url: https://in.linkedin.com/in/nandamuri-hari-naga-sumanth-8b6b19135
+  description:
+    
+  type: undergrad
+
+- name: Saketh Singh
+  photo: saket.jpg
+  info:  Dual Degree 
+  email: saketsingh019@gmail.com
+  url: https://in.linkedin.com/in/saket-singh-b04205112
+  description:
+    
+  type: undergrad
+
+- name: Anand Mooga
+  photo: anand.jpg
+  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
+  email: anandmooga2@gmail.com
+  url: https://in.linkedin.com/in/anandmooga
+  description:
+    
+  type: undergrad
+
+- name: Rahul Raj
+  photo: rahulraj.png
+  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
+  email: rahul361raj@gmail.com
+  url:
+  description:
+    
+  type: undergrad
+
+- name: Apoorv Balde
+  photo: apoorv.jpg
+  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
+  email: 
+  url:
+  description:
+    
+  type: undergrad
 
 
