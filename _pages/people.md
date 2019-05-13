@@ -114,6 +114,6 @@ permalink: /people/
 
 ## Alumni
 
-Here is the <a href="{{ site.url }}{{ site.baseurl }}/alumni/">list of all our alumni</a>.
+<div style="font-size:20px;"> → <a href="{{ site.url }}{{ site.baseurl }}/alumni/">list of all our alumni</a>.
 
 <br> <br>
