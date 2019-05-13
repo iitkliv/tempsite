@@ -20,8 +20,10 @@ permalink: /alumni/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}<br>email: <{{ member.email }}></i>
+  <h4>{{ member.name }}</h4><br>
+	Role: {{ member.info }}<br>
+	{% if member.email %}email: <{{ member.email }}>{% endif %}<br>
+	{% if member.url %} URL: <a href="{{ member.url }}">LinkedIn</a> {% endif %}
   <ul style="overflow: hidden">
 
   </ul>
