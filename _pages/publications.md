@@ -25,9 +25,9 @@ permalink: /publications/
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
   {% if publi.image %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/default.png" class="img-responsive" width="33%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/default.png" class="img-responsive" width="50%" style="float: left" />
   {% endif %}
   <p style="font-size: 13px; text-align: justify;">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
