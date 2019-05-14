@@ -53,14 +53,23 @@ permalink: /publications/
 ## Full list of publications
 (You may also visit the [Google Scholar](https://scholar.google.com/citations?user=x-0vLSsAAAAJ&hl=en) page)
 
-<ol>
-    {% for pub in site.data.publist %}
-        <li>
-            <p style="font-size: 17px;">
-            {{ pub.authors }}, "<i>{{ pub.title }}</i>", <a href="{{ pub.link.url }}" target="_blank"><i>{{ pub.link.display }}</i></a>
-            </p>
-        </li>
-    {% endfor %}
-</ol>
+{% assign years = "2014,2015,2016,2017,2018,2019" | split: ',' %}
+{% for year in years reversed %}
+<ul>
+  <li> <div style="font-size: 23px;">{{ year }}: </div> <br>
+    <ol>
+        {% for pub in site.data.publist %}
+        {% if year contains pub.year %}
+            <li>
+                <p style="font-size: 17px; text-align: justify;">
+                {{ pub.authors }}, "<i>{{ pub.title }}</i>", <a href="{{ pub.link.url }}" target="_blank"><i>{{ pub.link.display }}</i></a>
+                </p>
+            </li>
+        {% endif %}
+        {% endfor %}
+    </ol>
+  </li>
+</ul>
+{% endfor %}
 
 <p> &nbsp; </p>
