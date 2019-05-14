@@ -34,7 +34,7 @@
   email: debarghyachina@gmail.com
   description:
     - MTech in Mechatronics Engineering from NITTTR Kolkata
-    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/"> LinkedIn </a>
+    - <a href="https://www.linkedin.com/in/debarghya-china-2a637aba/" target="_blank"> LinkedIn </a>
   type: member
 
 - name: Kaushik Das
@@ -68,7 +68,7 @@
   email: ayan.das@ee.iitkgp.ac.in
   description:
     - BTech in Electronics and Communication Engineering from ECE Dept., IEM Kolkata
-    - <a href="https://dasayan05.github.io/"> Personal Site </a>
+    - <a href="https://dasayan05.github.io/" target="_blank"> Personal Site </a>
   type: member
 
 
@@ -84,6 +84,10 @@
   photo: ak.png
   info: PhD Candidate
   email: aupendukar@iitkgp.ac.in
+  description:
+    - M.Tech in Instrumentation and Signal Processing from EE Dept., IIT Kharagpur
+    - BTech in Electrical Engineering from West Bengal University of Technology
+    - <a href="https://aupendu.github.io/" target="_blank"> Personal Site </a>
   type: alumni
 
 - name: Abhijit Guha Roy
@@ -113,7 +117,7 @@
 
 - name: Akshit Mantri
   photo: akshit.jpg
-  info: B.Tech in Electrical Engineering and M.Tech in Instrumentation and Signal Processing, Minor in Computer Science and Engineering 
+  info: B.Tech in Electrical Engineering and M.Tech in Instrumentation and Signal Processing Field Of Study Minor in Computer Science and Engineering 
   email: 
   url: https://in.linkedin.com/in/akshit-mantri-327a5b101
   description:
@@ -122,7 +126,7 @@
 
 - name: Srichandra Chi-lappagari
   photo: srichanda.jpg
-  info: Bachelor of Technology (BTech) and Master of Technology(MTech), Electronics and Electrical Communication Engineering 
+  info: Bachelor of Technology (BTech) and Master of Technology(MTech) Field Of Study Electronics and Electrical Communication Engineering 
   email: 
   url: https://in.linkedin.com/in/srichandra-chilappagari
   description:
@@ -131,7 +135,7 @@
 
 - name: Abhinav Agarwal
   photo: avinav.jpg
-  info: B.Tech Major, Electrical Engineering & B.Tech Minor, Computer Science and Engineering 
+  info: B.Tech Major Field Of Study Electrical Engineering & B.Tech Minor Field Of Study Computer Science and Engineering 
   email: 
   url: linkedin.com/in/abhinav-aggarwal-ab7331119
   description:
@@ -158,7 +162,7 @@
 
 - name: Neha Banerjee
   photo: neha.jpg
-  info: Bachelor of Technology (B.Tech.), Electrical Engineering
+  info: Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: 
   url: https://in.linkedin.com/in/nehabanerjeeiit
   description:
@@ -167,7 +171,7 @@
 
 - name: Nikhil Naik
   photo: nikhil.jpg
-  info: Bachelor of Technology (B.Tech.), Instrumentation Engineering 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Instrumentation Engineering 
   email: 
   url: https://www.linkedin.com/in/nikhilvnaik
   description:
@@ -176,7 +180,7 @@
 
 - name: Himanshu Chaudhary
   photo: hs.jpg
-  info: Bachelor of Technology (B.Tech.), Instrumentation Engineering 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Instrumentation Engineering 
   email: 
   url: https://in.linkedin.com/in/himanshu-chaudhary-688097b7
   description:
@@ -185,7 +189,7 @@
 
 - name: Prashant Yadav
   photo: py.jpg
-  info: Bachelor of Technology (B.Tech.), Electrical Engineering
+  info: Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: 
   url: https://www.linkedin.com/in/prashant-yadav-63b465a0
   description:
@@ -194,7 +198,7 @@
 
 - name: Inderpreet Kaur
   photo: ik.jpg
-  info: Bachelor of Technology (B.Tech.), Instrumentation Engineering 
+  info: Bachelor of Technology (B.Tech.) Field Of Study Instrumentation Engineering 
   email: 
   url: https://in.linkedin.com/in/inderpreet15
   description:
@@ -221,7 +225,7 @@
 
 - name: Anand Mooga
   photo: anand.jpg
-  info:  Bachelor of Technology (B.Tech.), Electrical Engineering
+  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: anandmooga2@gmail.com
   url: https://in.linkedin.com/in/anandmooga
   description:
@@ -230,7 +234,7 @@
 
 - name: Rahul Raj
   photo: rahulraj.png
-  info:  Bachelor of Technology (B.Tech.), Electrical Engineering
+  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: rahul361raj@gmail.com
   url:
   description:
@@ -239,7 +243,7 @@
 
 - name: Apoorv Balde
   photo: apoorv.jpg
-  info:  Bachelor of Technology (B.Tech.), Electrical Engineering
+  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: 
   url:
   description:

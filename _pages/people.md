@@ -87,7 +87,7 @@ permalink: /people/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}><br>{% if member.url %} URL: <a href="{{ member.url }}">LinkedIn</a> {% endif %}</i>
+  <i>{{ member.info }}<br>email: <{{ member.email }}><br>{% if member.url %} URL: <a href="{{ member.url }}" target="_blank">LinkedIn</a> {% endif %}</i>
   <ul style="overflow: hidden">
 
   {% for line in member.description %}
@@ -114,6 +114,6 @@ permalink: /people/
 
 ## Alumni
 
-<div style="font-size:20px;"> → <a href="{{ site.url }}{{ site.baseurl }}/alumni/">list of all our alumni</a>.
+<div style="font-size:20px;"> → <a href="{{ site.url }}{{ site.baseurl }}/alumni/" target="_blank">list of all our alumni</a>.
 
 <br> <br>
