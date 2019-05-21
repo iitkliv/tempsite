@@ -27,7 +27,7 @@ permalink: /publications/
   {% if publi.image %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/default.png" class="img-responsive" width="50%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/default.png" class="img-responsive" width="60%" style="float: left" />
   {% endif %}
   <p style="font-size: 13px; text-align: justify;">{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
@@ -56,7 +56,7 @@ permalink: /publications/
 {% assign years = "2014,2015,2016,2017,2018,2019" | split: ',' %}
 {% for year in years reversed %}
 <ul>
-  <li> <div style="font-size: 23px;">{{ year }}: </div> <br>
+  <li> <div style="font-size: 22px;">{{ year }}: </div> <br>
     <ol>
         {% for pub in site.data.publist %}
         {% if year contains pub.year %}

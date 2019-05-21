@@ -1,23 +1,3 @@
-- title: "Significance of Residual Learning and Boundary Weighted Loss in Ischaemic Stroke Lesion Segmentation"
-  description: Radiologists use various imaging modalities to aid in different tasks like diagnosis of disease, lesion visualization, surgical planning and prognostic evaluation. Most of these tasks rely on the the accurate delineation of the anatomical morphology of the organ, lesion or tumor. Deep learning frameworks can be designed to facilitate automated delineation of the region of interest in such cases with high accuracy. Performance of such automated frameworks for medical image segmentation can be improved with efficient integration of information from multiple modalities aided by suitable learning strategies. In this direction, we show the effectiveness of residual network trained adversarially in addition to a boundary weighted loss. The proposed methodology is experimentally verified on the SPES-ISLES 2015 dataset for ischaemic stroke segmentation with an average Dice coefficient of 0.881 for penumbra and 0.877 for core. It was observed that addition of residual connections and boundary weighted loss improved the performance significantly.
-  authors: Ronnie Rajan, Rachana Sathish, Debdoot Sheet
-  link:
-    url: https://openreview.net/forum?id=SyeOMoR4q4
-    display:  MIDL 2019 Conference Abstract Submission
-  highlight: false
-  image: Ischaemic 2.jpg
-  year: 2019
-
-- title: "Adversarially Trained Neural Engine for High Density Compression of Digital Pathology Whole Slide Images"
-  description: Medical imaging has a great impact on diagnosis of diseases and preparation to surgery. Everyday, an enormous number of medical images are produced by hospitals and medical imaging centers for research, surgical and disease diagnostics. The storage and transmission of these images is a huge dilemma due to the substantial size of medical image data. Standard hand-crafted feature based natural image compression algorithms like JPEG are not widely accepted for pathological image compression since they tend to introduce pathologically confusing artifacts. The results of our experiment show that we can preserve better quality while compressing at the rate higher than standard JPEG algorithms as evaluated in peak signal-to-noise ratio (PSNR) and multi scale structural similarity (MS-SSIM) index. More importantly, our method does not suffer from any pathologically confusing artifacts.
-  authors: Pyush Pahuja, Debdoot Sheet
-  link:
-    url: https://openreview.net/forum?id=Bkgk3c0Nc4
-    display:  MIDL 2019 Conference Abstract Submission
-  highlight: false
-  image: neural.jpg
-  year: 2019
-
 - title: "Learning with Multitask Adversaries using Weakly Labelled Data for Semantic Segmentation in Retinal Images"
   description: A prime challenge in building data driven inference models is the unavailability of statistically significant amount of labelled data. Since datasets are typically designed for a specific purpose, and accordingly are weakly labelled for only a single class instead of being exhaustively annotated. Despite there being multiple datasets which cumulatively represents a large corpus, their weak labelling poses challenge for direct use. As in case of retinal images which have inspired development of data driven learning based algorithms for segmenting anatomical landmarks like vessels and optic disc as well as pathologies like microaneurysms, hemorrhages, hard exudates and soft exudates; aspired to segment all using only a single fully convolutional neural network (FCN), there is no single dataset with all classes annotated. We solve this problem by training a single network using separate weakly labelled datasets. Essentially we use an adversarial learning approach over a semantic segmentation FCN, where the objectives of discriminators are to learn to (a) predict which of the classes are actually present in the input fundus image, and (b) distinguish between manual annotations vs. segmented results for each of the classes. The first discriminator works to enforce the network to segment those classes which are present in the fundus image although may not have been annotated ie all retinal images have vessels while pathology datasets may not have annotated them in the dataset. The second discriminator contributes to making the segmentation result as realistic as possible. We experimentally demonstrate using weakly labelled datasets of DRIVE …
   authors: Oindrila Saha, Rachana Sathish, Debdoot Sheet
