@@ -263,11 +263,28 @@
 
 - name: Apoorv Balde
   photo: apoorv.jpg
-  info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
+  info:  
   email: 
   url:
   description:
-    
+    - Augmented Reality
   type: undergrad
 
+- name: Tapas Halder
+  photo: tapas.jpg
+  info:  Secretarial Support
+  email: tapas4mkgp@gmail.com
+  url:
+  description:
+    
+  type: support
+
+- name: Arindam Chakraborty
+  photo: chk.jpg
+  info:  System Administrator
+  email: arindamchk1995@gmail.com
+  url:
+  description:
+    
+  type: support
 
