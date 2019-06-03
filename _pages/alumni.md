@@ -8,38 +8,44 @@ permalink: /alumni/
 
 ## Alumni
 
-{% assign number_printed = 0 %}
-{% for member in site.data.people %}
-{% if member.type == "alumni" %}
+{% assign years = "2015,2016,2017,2018,2019" | split: ',' %}
+{% for year in years reversed %}
+<ul>
+<li> <div style="font-size: 22px;">{{ year }}: </div> <br>
+<ul>
+<li> <div style="font-size: 22px;">B.Tech: </div> <br>
+   <ol>
+        {% for p in site.data.people %}
+        {% if p.type == "alumni" and p.course == "B.Tech" %}
+        {% if year contains p.year %}
+            <li>
+                <p style="font-size: 15px; text-align: justify;">
+                <strong>{{ p.name }}</strong> <br /> {{ p.info }} <br /> <i>{{ p.award}}</i>
+                </p>
+            </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+   </ol>
+</li>
+<li> <div style="font-size: 22px;">M.Tech: </div> <br>
+   <ol>
+        {% for p in site.data.people %}
+        {% if p.type == "alumni" and p.course == "M.Tech" %}
+        {% if year contains p.year %}
+            <li>
+                <p style="font-size: 15px; text-align: justify;">
+                <strong>{{ p.name }}</strong> <br /> {{ p.info }} <br /> <i>{{ p.award}}</i>
+                </p>
+            </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+   </ol>
+</li>
+</ul>
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  	{% if member.info %}{{ member.info }}<br>{% endif %}
-  	{% if member.email %}email: <{{ member.email }}><br>{% endif %}
-  	{% if member.url %} URL: <a href="{{ member.url }}">LinkedIn</a> {% endif %}
-  <ul style="overflow: hidden">
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
+</li>
+</ul>
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<br> <br>
+<br />

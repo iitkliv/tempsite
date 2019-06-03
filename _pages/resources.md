@@ -52,7 +52,13 @@ We provide few services solely for internal usage by the [students]({{ site.url 
 
    * #### DeepKLIV:
        * ###### 2x Intel(R) Xeon(R) E5-2620 v4, 2x32GB DDR4 ECC Regd.RAM, 3x Nvidia TitanX with 12GB DDR5, 1x2TB HDD.
-       
+  
+   * #### DeepTensor:
+       * ###### 2x Intel(R) Xeon(R)E5-2699 v4, 2x32GB DDR4 ECC Regd.RAM, 1x Nvidia Ge Force GT 1030 with 2GB DDR5, 1x1TB HDD.
+   
+   * #### DeepInfo:
+       * ###### 2x Intel(R) Xeon(R)E5-2699 v4, 2x32GB DDR4 ECC Regd.RAM, 1x Nvidia Ge Force GT 1030 with 2GB DDR5 & 1x Nvidia Quadro P6000 with 24GB DDR5, 1x4TB HDD.
+
 5. #### Network Attached Storage (NAS) Server:
        
      *  ###### 1x Intel(R) Xeon(R) 4110 CPU, 1x16GB DDR4 ECC Regd. RAM, 1x 4TB HDD.
