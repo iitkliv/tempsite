@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<p style="font-size:20px;text-align:justify;">Medical imaging and image computing research is now experiencing a symbiotic acceleration with rapid advancement in machine learning algorithms and computing architectures leading to transformative new capabilities. We are finally able to realize the long-standing demand of systems that can autonomously interpret complex visual appearances in multi-modal images to redefine human experience of augmented reality, predictive systems and patient comfort-centric medicine. We combine fields of machine learning, medical imaging and visualization for advancing state of art to achieving these futuristic experiences.</p>
+<p style="font-size:18px;text-align:justify;">Medical imaging and image computing research is now experiencing a symbiotic acceleration with rapid advancement in machine learning algorithms and computing architectures leading to transformative new capabilities. We are finally able to realize the long-standing demand of systems that can autonomously interpret complex visual appearances in multi-modal images to redefine human experience of augmented reality, predictive systems and patient comfort-centric medicine. We combine fields of machine learning, medical imaging and visualization for advancing state of art to achieving these futuristic experiences.</p>
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" >
     <!-- Menu -->
