@@ -2,12 +2,12 @@
     <h4 style="text-align: center; font-weight: bold;">News</h4>
 
     {% for article in site.data.news limit:8 %}
-        [ {{ article.date }} ]
-        <p> {{ article.headline }} </p>
+        <center>[ {{ article.date }} ]
+        <p style="text-align: center;"> {{ article.headline }} </p>
         {% if article.thumbnail %}
     		<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.thumbnail }}" class="img-responsive" style="max-width: 192px;" />
     	{% endif %}
-        <br>
+        <br></center>
     {% endfor %}
 
     <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html"> .. all news </a></h4>

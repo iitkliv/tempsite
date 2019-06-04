@@ -9,7 +9,7 @@ permalink: /allnews.html
 # News
 <hr style="height:1px; border:none; background-color:#aaaaaa;" />
 {% for article in site.data.news %}
-<p>
+<center><p>
     [{{ article.date }}]
     <br>
     {{ article.headline }}
@@ -18,6 +18,6 @@ permalink: /allnews.html
     	<img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.thumbnail }}" class="img-responsive" />
 	</center>
     {% endif %}
-</p>
+</p></center>
 <hr style="height:1px; border:none; background-color:#aaaaaa;" />
 {% endfor %}

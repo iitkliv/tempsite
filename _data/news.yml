@@ -1,27 +1,4 @@
-- date: 08 October 2018
-  headline: "Awesome news headline number 1 with a <a href='https://www.google.co.in'>Link</a>."
+- date: 2019
+  headline: "Coming soon"
   thumbnail: random.png
 
-- date: 27 September 2018
-  headline: "Awesome news headline number 2 with a <a href='https://www.google.co.in'>Link</a>."
-
-- date: 16 May 2018
-  headline: "Awesome news headline number 3 with a <a href='https://www.google.co.in'>Link</a>."
-
-- date: 4 May 2018
-  headline: "Awesome news headline number 4 with a <a href='https://www.google.co.in'>Link</a>."
-
-- date: 5-9 March 2018
-  headline: "Awesome news headline number 5 with a <a href='https://www.google.co.in'>Link</a>."
-  thumbnail: random.png
-
-- date: 27 December 2017
-  headline: "Awesome news headline number 6 with a <a href='https://www.google.co.in'>Link</a>."
-  thumbnail: random.png
-
-- date: 13 November 2017
-  headline: "Awesome news headline number 7 with a <a href='https://www.google.co.in'>Link</a>."
-  thumbnail: random.png
-
-- date: 10 November 2017
-  headline: "Awesome news headline number 8 with a <a href='https://www.google.co.in'>Link</a>."
