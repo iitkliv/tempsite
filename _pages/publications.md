@@ -62,7 +62,7 @@ permalink: /publications/
         {% if year contains pub.year %}
             <li>
                 <p style="font-size: 17px; text-align: justify;">
-                {{ pub.authors }}, "{{ pub.title }}", <a href="{{ pub.link.url }}" target="_blank"><i>{{ pub.link.display }}</i></a>{% if pub.pp %}, <i>{{ pub.pp }}</i>{% endif %}
+                {{ pub.authors }}, "{{ pub.title }}", <a href="{{ pub.link.url }}" target="_blank"><i>{{ pub.link.display }}</i></a> {% if pub.pp %}{{ pub.pp }}{% endif %}
                 </p>
             </li>
         {% endif %}

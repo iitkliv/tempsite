@@ -18,6 +18,6 @@ permalink: /vacancies
 </center>
 
 <center>
-<a href="http://iitkgp.ac.in/temporary-jobs" target="_blank"><p style="font-size:25px;"> Look for Temporary Jobs </p> </a>
+<a href="http://iitkgp.ac.in/temporary-jobs" target="_blank"><p style="font-size:25px;"> Apply For Research Positions </p> </a>
 <br />
 </center>

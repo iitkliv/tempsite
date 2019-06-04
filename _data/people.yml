@@ -255,37 +255,43 @@
   photo: sumanth.jpg
   info: Dual Degree 
   email:  sumanthnandamuri99@gmail.com 
-  url: https://in.linkedin.com/in/nandamuri-hari-naga-sumanth-8b6b19135
+  url: 
   description:
     
   type: undergrad
+  Linkedin: https://in.linkedin.com/in/nandamuri-hari-naga-sumanth-8b6b19135
 
 - name: Saketh Singh
   photo: saket.jpg
   info:  Dual Degree 
   email: saketsingh019@gmail.com
-  url: https://in.linkedin.com/in/saket-singh-b04205112
+  url: 
   description:
     
   type: undergrad
+  Linkedin: https://in.linkedin.com/in/saket-singh-b04205112
+  
 
 - name: Anand Mooga
-  photo: anand.jpg
+  photo: anand.png
   info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: anandmooga2@gmail.com
-  url: https://in.linkedin.com/in/anandmooga
+  url: 
   description:
     
   type: undergrad
+  Linkedin: https://in.linkedin.com/in/anandmooga
 
 - name: Rahul Raj
-  photo: rahulraj.png
+  photo: rahul.png
   info:  Bachelor of Technology (B.Tech.) Field Of Study Electrical Engineering
   email: rahul361raj@gmail.com
   url:
   description:
     
   type: undergrad
+  Linkedin: https://www.linkedin.com/in/rahul-raj-iitkgp/
+  
 
 - name: Apoorv Balde
   photo: apoorv.jpg
@@ -321,7 +327,9 @@
     
   type: alumni
   year: 2015
-  award: 
+  award:
+  url:
+    linkedin: https://www.linkedin.com/in/pradhananshuman/?originalSubdomain=in 
 
 - name: Akanksha Kumari
   info: Building Detection in SAR Images 
@@ -331,6 +339,8 @@
   type: alumni
   year: 2015
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/kumari-akanksha-455b9046/?originalSubdomain=in
 
 - name: Ankit Bathwal
   info: Learning Texture Kernels to Discriminate Chromatin Density in Optical Microscopic
@@ -340,8 +350,8 @@
   type: alumni
   year: 2015
   award:
-
-
+  url:
+    linkedin: https://www.linkedin.com/in/ankit-bathwal-1261a238/?originalSubdomain=in
 
 - name: Kaustuv Mishra
   info: Learning Temporal Connectionism of Visual Abstractions using Deep Neural Ar-chitectures for Monitoring of Minimally Invasive Surgical Interventions towards Workflow Modelling
@@ -351,6 +361,8 @@
   type: alumni
   year: 2017
   award: Keshab K. Parhi Endowment Award
+  url:
+    linkedin: https://www.linkedin.com/in/kaustuv-mishra-727290aa/?originalSubdomain=in
 
 - name: Arna Ghosh
   info: Deep Semantic Architectures for Mitotic Figure Detection in Breast Histopathology Images
@@ -360,6 +372,9 @@
   type: alumni
   year: 2017
   award: Institute Silver Medal and Systems Society Best Thesis Award
+  url:
+    linkedin: https://www.linkedin.com/in/arna-ghosh-47852b73/?originalSubdomain=ca
+    gscholar: https://scholar.google.co.in/citations?user=YjS546oAAAAJ&hl=en
 
 - name: Rahul Singh
   info: Deep Neural Networks for Predicting Driving States of a Vehicle towards Achieving Autonomous Driving
@@ -369,6 +384,9 @@
   type: alumni
   year: 2017
   award: Best Thesis Award in Electrical Engineering
+  url:
+    linkedin: 
+    gscholar: 
 
 - name: Satyarth Singh
   info: Combined Stereo Imaging System and Deep Learning Architecture for 3D Surface Profilometry of Cutaneous Wounds and their Diagnosis
@@ -378,6 +396,9 @@
   type: alumni
   year: 2017
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/satyarth-singh-53964385/?originalSubdomain=in
+    gscholar:
 
 - name: Suryateja Chanduru
   info: Deep Visual Semantic Architectures for Localization and Identification of Road Traffic Signs towards Autonomous Driving Assistance
@@ -387,6 +408,10 @@
   type: alumni
   year: 2017
   award: 
+  url:
+    linkedin: 
+    gscholar:
+  
 
 - name: Roshan Pati
   info: Deep Neural Networks for Simultaneously Localizing Fishes and Recognizing their Species in Underwater Videos
@@ -396,6 +421,9 @@
   type: alumni
   year: 2017
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/roshan-pati-68b256102/?originalSubdomain=in
+    gscholar:
 
 - name: Mayank Gupta
   info: Computational Neuroaesthetics of Fashionability
@@ -405,6 +433,9 @@
   type: alumni
   year: 2017
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/phaarumghd/?originalSubdomain=in
+    gscholar:
 
 - name: Siddam Sai Rachana Patel
   info: Learning Representations for Optic Disc Segmentation in Retinal Images
@@ -414,6 +445,9 @@
   type: alumni
   year: 2015
   award: 
+  url:
+    linkedin: 
+    gscholar:
 
 - name: Rupesh Bansal
   info: Learning Kernels for Tubular Structure Extraction in Speckle Imaging
@@ -422,7 +456,10 @@
     
   type: alumni
   year: 2015
-  award: 
+  award:
+  url:
+    linkedin: https://www.linkedin.com/in/rupesh-bansal-a0147957/?originalSubdomain=in
+    gscholar: 
 
 - name: Vankudothu Rahul
   info: Learning Kernels for White Light Retinal Angiography
@@ -432,6 +469,10 @@
   type: alumni
   year: 2015
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/rahul-vankudothu-60813869/?originalSubdomain=in
+    gscholar:
+
 
 - name: Chintada Chaitanya Chandra
   info: Learning Representations for Image Segmentation in Optical Microscopic Histology
@@ -441,6 +482,9 @@
   type: alumni
   year: 2015
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/chaitanya-chandra-30142846/?originalSubdomain=in
+    gscholar:
 
 - name: Rachana Sathish
   info: Learning of Image Saliency for Visual Media Retargeting to Smarten-up Photo Framing
@@ -450,6 +494,9 @@
   type: alumni
   year: 2016
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/rachana-sathish-65163153/?originalSubdomain=in
+    gscholar: https://scholar.google.co.in/citations?user=V0UWsusAAAAJ&hl=en
 
 - name: Kanithi Praveen Kumar
   info: Augmented Reality System for Assisting Needle Positioning During Ultrasound Guided Intervention
@@ -459,6 +506,9 @@
   type: alumni
   year: 2016
   award: 
+  url:
+    linkedin: 
+    gscholar:
 
 - name: Praveen Kumar
   info: Smartphone based Immersive Mixed Reality System for Interctive Medical Visualizations
@@ -468,6 +518,9 @@
   type: alumni
   year: 2016
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/praveen-kumar-643236110/?originalSubdomain=in
+    gscholar:
 
 - name: Ratala Lalitha
   info: Organ Segmentation in Whole Body CT Volumes for Generating Digital Anatomy
@@ -477,6 +530,9 @@
   type: alumni
   year: 2016
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/lalitha-ratala-2507bb68/?originalSubdomain=in
+    gscholar:
 
 - name: D’Souza Shimona Niharika John
   info: Self Taught Learning Based Optical Fluorescence Microscopy Image Deblurring using Stacked Denoising Auto-encoders
@@ -486,6 +542,9 @@
   type: alumni
   year: 2016
   award: 
+  url:
+    linkedin: https://www.linkedin.com/in/niharika-shimona-d-souza-b1a47824/?originalSubdomain=in
+    gscholar: https://scholar.google.com/citations?user=iKonuvcAAAAJ&hl=en
 
 - name: Avi Gupta
   info: Deep Architectures for Optical Coherence Tomographic Images using Convolutional Neural Network
@@ -495,6 +554,9 @@
   type: alumni
   year: 2016
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/avi-gupta-73152871/?originalSubdomain=in
+    gscholar:
 
 - name: Dadi Venkata Sainath
   info: Deep Architectures for Photo Acoustic Tomography Image Analysis
@@ -504,6 +566,9 @@
   type: alumni
   year: 2016
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/venkatasainath/?originalSubdomain=in
+    gscholar:
 
 - name: Prabhath Yeluri
   info: Super-resolution Dermatoscopy with a Consumer Grade Camera using Aperture Mask Based Sub-pixel Translated Images
@@ -513,6 +578,9 @@
   type: alumni
   year: 2016
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/prabhath-yeluri-8a479385/?originalSubdomain=in
+    gscholar:
 
 - name: Pradeepta Das
   info: Deep Learning Based Computed Super-resolution Optical Microscopy
@@ -522,6 +590,9 @@
   type: alumni
   year: 2016
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/daprad/?originalSubdomain=in
+    gscholar:
 
 - name: Gagan Goel
   info: Methods for Reducing Deployment Complexity of Fully Connected Deep Neural Network with Application to Retinal Vessel Segmentation
@@ -531,6 +602,9 @@
   type: alumni
   year: 2016
   award:
+  url:
+    linkedin: https://www.linkedin.com/in/gagan-goel-b70578102/?originalSubdomain=in
+    gscholar:
 
 
 

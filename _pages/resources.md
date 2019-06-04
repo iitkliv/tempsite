@@ -8,21 +8,18 @@ permalink: /resources/
 
 # Resources
 
-### Internal services:
-
-We provide few services solely for internal usage by the [students]({{ site.url }}{{ site.baseurl }}/people/) associated with our lab. These services can only be accessed from within IIT Kharagpur's internal network (LAN & Wifi). 
-
-**Important: The URLs must be added to the "*proxy bypass*" list of your system (The way to do this is OS and browser specific) to be able to run the services.**
-
+<br />
 1. #### Share Latex Instance For Kliv:
 	* ###### **Intranet IP:** 10.X.X.XX:4242
 	* ###### **User account:** Send a request on slack to the admins for create user account
 	* ###### [User Guide](https://www.overleaf.com/learn/latex/LaTeX_video_tutorial_for_beginners_(video_1)/)
+    * ###### The IP must be added to the "*proxy bypass*" list of your system  to be able to run the service.
 
 2. #### Gitlab For Kliv:
 	* ###### **Intranet IP:** 10.X.X.XX:4300 
 	* ###### **User account:** Register on the instance as usual
 	* ###### [User Guide](https://docs.gitlab.com/ee/ssh/)
+    * ###### The IP must be added to the "*proxy bypass*" list of your system  to be able to run the service.
 
 3. #### CPU Cluster (MIRIAD):
    * #### MIRIAD (1):

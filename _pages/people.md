@@ -97,12 +97,8 @@ permalink: /people/
   {% for line in member.description %}
   <li> {{ line }} </li>
   {% endfor %}
-  {% if member.url.gscholar %}<a href="{{ member.url.gscholar }}" target="_blank"><img width="7%" src="{{ site.url }}{{ site.baseurl }}/images/icons/gscholar.png" /></a>{% endif %}
-  {% if member.url.linkedin %} <a href="{{ member.url.linkedin }}" target="_blank"><img width="7%" src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" /></a>{% endif %}
-  {% if member.url.github %} <a href="{{ member.url.github }}" target="_blank"><img width="8%" src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" /></a>{% endif %}
-  {% if member.url.researchgate %} <a href="{{ member.url.researchgate }}" target="_blank"><img width="8%" src="{{ site.url }}{{ site.baseurl }}/images/icons/rg.png" /></a>{% endif %}
-  
-
+ 
+  {% if member.Linkedin %} <a href="{{ member.Linkedin }}" target="_blank"><img width="7%" src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" /></a>{% endif %}
   </ul>
 </div>
 
